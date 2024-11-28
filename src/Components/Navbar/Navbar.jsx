@@ -16,12 +16,12 @@ const Navbar = () => {
      
        <NavLink to='/'> <li>HOME</li></NavLink>
        <NavLink to='./ABOUT'> <li>ABOUT</li></NavLink>
-      <NavLink to='./COURSE'>  <li>COURSES</li></NavLink>
+      <NavLink to='./COURSES'><li>COURSES</li></NavLink>
     <NavLink to='./CONTACT'>    <li>CONTACT</li></NavLink>
       </ul>
 
       <div className="loginsignup">
-      <button className='login-btn btn'>Login</button>
+  <button className='login-btn btn'>Login</button>
       <button className='signup-btn btn'>Sign Up</button>
     </div>
 
