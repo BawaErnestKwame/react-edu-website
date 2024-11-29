@@ -11,6 +11,7 @@ import About from './Pages/About/About';
 const App = () => {
   return (
   <>
+
   <Navbar/>
  <Routes>
   <Route path='/' element={<Home/>} />
@@ -18,6 +19,9 @@ const App = () => {
   <Route path='/COURSES' element={<Cources/>} />
   <Route path='/CONTACT' element={<Contact/>} />
  </Routes>
+
+ 
+
 
 
   </>
