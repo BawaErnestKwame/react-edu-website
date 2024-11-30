@@ -3,7 +3,9 @@ import './Cources.css'
 
 const Cources = () => {
   return (
-    <div>Cources</div>
+    <div>
+      <h1>c0urses page</h1>
+    </div>
   )
 }
 

@@ -13,6 +13,11 @@ import book2 from '../../assets/book-2.jpg'
 import StarRateIcon from '@mui/icons-material/StarRate';
 import StarHalfIcon from '@mui/icons-material/StarHalf';
 import html from '../../assets/html.jpeg'
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import AddIcon from '@mui/icons-material/Add';
+
+
+
 
 
 
@@ -255,11 +260,103 @@ Rerum magni dolorem nulla ullam dolores exercitationem
         </div>
       </div>
 
+      <div class="sugested-questions">
+        <h3>QUESTIONS</h3>
+    <h1>SUGESTED QUESTION</h1>
+    <did class="water">
+        <i class="fa-solid fa-water"></i>
+    </did>
+    <div class="question_answers">
+        <div class="question">
+            <p><AddIcon/>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <ArrowDownwardIcon/>
 
+        </div>
+        <div class="answers open">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Iste dolore laborum ut dolorem optio repudiandae reprehenderit 
+                veritatis eos soluta saepe 
+                iure neque itaque repellendus assumenda id vel dicta, quam sed?</p>
+        </div>
+    </div>
+    <div class="question_answers">
+        <div class="question">
+            <p><AddIcon/>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <ArrowDownwardIcon/>
 
+        </div>
+        <div class="answers open">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Iste dolore laborum ut dolorem optio repudiandae reprehenderit 
+                veritatis eos soluta saepe 
+                iure neque itaque repellendus assumenda id vel dicta, quam sed?</p>
+        </div>
+    </div>
+    <div class="question_answers">
+        <div class="question">
+            <p><AddIcon/>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <ArrowDownwardIcon/>
 
+        </div>
+        <div class="answers open">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Iste dolore laborum ut dolorem optio repudiandae reprehenderit 
+                veritatis eos soluta saepe 
+                iure neque itaque repellendus assumenda id vel dicta, quam sed?</p>
+        </div>
+    </div>
+    <div class="question_answers">
+        <div class="question">
+            <p><AddIcon/>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            <ArrowDownwardIcon/>
 
-     
+        </div>
+        <div class="answers open">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Iste dolore laborum ut dolorem optio repudiandae reprehenderit 
+                veritatis eos soluta saepe 
+                iure neque itaque repellendus assumenda id vel dicta, quam sed?</p>
+        </div>
+    </div>
+    <div class="question_answers">
+        <div class="question">
+            <p><AddIcon/>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+           <ArrowDownwardIcon/>
+
+        </div>
+        <div class="answers open">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Iste dolore laborum ut dolorem optio repudiandae reprehenderit 
+                veritatis eos soluta saepe 
+                iure neque itaque repellendus assumenda id vel dicta, quam sed?</p>
+        </div>
+    </div>
+
+    
+    
+</div>
+
+{/* .instructors */}
+
+<div className='instructors'>
+        <div className="header">
+            <h5>INSTRUCTORS</h5>
+            <h6>OUR POPULAR INSTRUCTORS</h6>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore unde natus sint aut
+                 aliquam sunt facere aperiam nulla ut quibusdam 
+                deserunt consequuntur cumque, commodi veniam. In officiis omnis iusto corporis?</p>
+        </div>
+        <div className="instructors-cards">
+            <div className="card1">
+                <img src='' alt="" />
+                <h4> BAWA ERNEST KWAME</h4>
+                <h4>GRAPHIC DESIGNER</h4>
+
+            </div>
+
+        </div>
+
+    </div>
 
     </div>
   )
