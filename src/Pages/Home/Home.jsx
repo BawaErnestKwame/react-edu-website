@@ -15,6 +15,14 @@ import StarHalfIcon from '@mui/icons-material/StarHalf';
 import html from '../../assets/html.jpeg'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import AddIcon from '@mui/icons-material/Add';
+import instructor1 from '../../assets/instructor1.jpeg'
+import instructor2 from '../../assets/instructor2.jpeg'
+import instructor3 from '../../assets/instructor3.jpeg'
+import instructor4 from '../../assets/instructor4.jpeg'
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
+
+import SportsKabaddiIcon from '@mui/icons-material/SportsKabaddi';
+import Footer from '../../Components/Footer/Footer';
 
 
 
@@ -336,30 +344,160 @@ Rerum magni dolorem nulla ullam dolores exercitationem
     
 </div>
 
-{/* .instructors */}
-
 <div className='instructors'>
-        <div className="header">
-            <h5>INSTRUCTORS</h5>
-            <h6>OUR POPULAR INSTRUCTORS</h6>
+        <div className="headers">
+            <h3>INSTRUCTORS</h3>
+            <h1>OUR POPULAR INSTRUCTORS</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore unde natus sint aut
                  aliquam sunt facere aperiam nulla ut quibusdam 
                 deserunt consequuntur cumque, commodi veniam. In officiis omnis iusto corporis?</p>
         </div>
         <div className="instructors-cards">
             <div className="card1">
-                <img src='' alt="" />
-                <h4> BAWA ERNEST KWAME</h4>
+                <img src={instructor1} alt="" />
+                <h5> BAWA ERNEST KWAME</h5>
+                <h4>GRAPHIC DESIGNER</h4>
+
+            </div>
+            <div className="card1">
+                <img src={instructor2} alt="" />
+                <h5> BAWA ERNEST KWAME</h5>
+                <h4>GRAPHIC DESIGNER</h4>
+
+            </div>
+            <div className="card1">
+                <img src={instructor3} alt="" />
+                <h5> BAWA ERNEST KWAME</h5>
+                <h4>GRAPHIC DESIGNER</h4>
+
+            </div>
+            <div className="card1">
+                <img src={instructor4} alt="" />
+                <h5> BAWA ERNEST KWAME</h5>
                 <h4>GRAPHIC DESIGNER</h4>
 
             </div>
 
         </div>
 
+        <button className="instructor-btn">Find More Instructors<ArrowForwardIcon/></button>
+
     </div>
 
+
+
+
+    {/* testimonials sections */}
+
+    <div class="testimonial_section">
+    <h3>TESTIMONIAL</h3>
+    <h1>What Our Student Say About Us</h1>
+
+    <div class="slider">
+    <div class="cardes">
+        <div class="carde1">
+      <img src={instructor4} alt="" /> 
+      <h1><SportsKabaddiIcon/></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. 
+                Odio ab nesciunt ex fuga eius, distinctio,
+                Odio ab nesciunt ex fuga eius, distinctio,
+               
+                 nisi .</p>
+
+                 <h6><MoreHorizIcon/></h6>
+        </div>
+        <div class="carde1">
+        <img src={instructor1} alt="" />
+        <h1><SportsKabaddiIcon/></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. 
+                Odio ab nesciunt ex fuga eius, distinctio,
+                Odio ab nesciunt ex fuga eius, distinctionisi.</p>
+
+                 <h6><MoreHorizIcon/></h6>
+        </div>
+        <div class="carde1">
+           <img src={instructor1} alt="" />
+           <h1><SportsKabaddiIcon/></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. 
+                Odio ab nesciunt ex fuga eius, distinctio,
+                Odio ab nesciunt ex fuga eius, distinctio,
+               
+                 nisi .</p>
+
+                 <h6><MoreHorizIcon/></h6>
+        </div>
+        <div class="carde1">
+          <img src={instructor3} alt="" />
+          <h1><SportsKabaddiIcon/></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. 
+                Odio ab nesciunt ex fuga eius, distinctio,
+                Odio ab nesciunt ex fuga eius, distinctio,
+               
+                 nisi .</p>
+
+                 <h6><MoreHorizIcon/></h6>
+        </div>
+    </div>
+    <div class="cardes">
+        <div class="carde1">
+            <img src={instructor1} alt="" />
+            <h1><SportsKabaddiIcon/></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. 
+                Odio ab nesciunt ex fuga eius, distinctio,
+                Odio ab nesciunt ex fuga eius, distinctio,
+               
+                 nisi .</p>
+
+                 <h6><MoreHorizIcon/></h6>
+        </div>
+        <div class="carde1">
+           <img src={instructor2} alt="" />
+           <h1><SportsKabaddiIcon/></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. 
+                Odio ab nesciunt ex fuga eius, distinctio,
+                Odio ab nesciunt ex fuga eius, distinctio,
+               
+                 nisi .</p>
+
+                 <h6><MoreHorizIcon/></h6>
+        </div>
+        <div class="carde1">
+        <img src={instructor3}alt="" />
+        <h1><SportsKabaddiIcon/></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. 
+                Odio ab nesciunt ex fuga eius, distinctio,
+                Odio ab nesciunt ex fuga eius, distinctio,
+               
+                 nisi .</p>
+
+                 <h6><MoreHorizIcon/></h6>
+        </div>
+        <div class="carde1">
+          <img src={instructor4}alt="" />
+            <h1><SportsKabaddiIcon/></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. 
+                Odio ab nesciunt ex fuga eius, distinctio,
+                Odio ab nesciunt ex fuga eius, distinctio,
+               
+                 nisi .</p>
+
+                 <h6><MoreHorizIcon/></h6>
+        </div>
+    </div>
+</div>
+</div>
+
+<Footer/>
     </div>
   )
 }
 
-export default Home
+export default Home;

@@ -288,7 +288,7 @@
     text-align: center;
     position: relative;
  
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     
 }
 
@@ -438,19 +438,10 @@ button{
 
 .sugested-questions h1{
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     letter-spacing:2 ;
 }
 
-.water .fa-water{
-    position: absolute;
-    top:-10px;
-    right: 200px;
-    font-size: 4rem;
-    color: #e91e62;
-    opacity: .4;
-    
-}
 
 .sugested-questions .question_answers{
     background-color: #fff;
@@ -498,3 +489,235 @@ button{
     line-height: 1.1;
 }
 
+
+
+/* instructors */
+
+.instructors{
+    display: flex;
+    flex-direction: column;
+    padding: 0 6rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .5px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.instructors h3{
+    margin-bottom: 7px;
+    margin-top: 30px;
+
+}
+
+.instructors h3::before{
+    content: '';
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    background:linear-gradient(#fff 1%,#ff012b 100%);
+    z-index: -1;
+    top: 5px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.instructors h1{
+    color: #e91e62;
+    text-shadow: var(--box-shadow);
+}
+
+.instructors p{
+    width: 50%;
+    place-self: center;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.instructors-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.instructors-cards .card1{
+    background-color: #fff;
+    border-radius: 8px;
+    color: #000;
+    width: 278px;
+    height: 40vh;
+    border-top-left-radius: 50px;
+    margin-bottom: 20px;
+   
+}
+
+.instructors-cards .card1 img{
+    height: 30vh;
+    object-fit: cover;
+    border-top-left-radius: 0px;
+}
+
+.instructors-cards .card1 h4{
+    color: #08025a;
+   
+}
+
+.instructors-cards .card1 h5{
+    color: #e91e62;
+    font-size: 1rem;
+    margin: 7px 0;
+}
+
+.instructor-btn{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* testimonial section */
+
+
+.testimonial_section{
+    padding: 2rem 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    color: #0b012c;
+   
+}
+
+
+.testimonial_section h3{
+color: #ffffff;
+font-size: 18px;
+letter-spacing: .6px;
+margin-bottom: 10px;
+}
+
+
+.testimonial_section h3::before{
+    content: '';
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    background:linear-gradient(#fff 1%,#ff012b 100%);
+    z-index: -1;
+    top: 5px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+
+}
+
+
+
+.testimonial_section h1{
+color: #eef3ed;
+font-size: 1.7rem;
+letter-spacing: .6px;
+margin-bottom: 10px;
+margin-bottom: 20px;
+}
+
+.testimonial_section .cardes{
+   display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: testimonialscroll 40s infinite linear;
+    
+}
+
+.slider::after{
+    content: "";
+    background:linear-gradient( #17025a, rgba(1, 1, 78, 0.884)) ;
+    position: absolute;
+    height: 400px;
+    width: 100px;
+    left: -100px;
+    top: -10px;
+    z-index: 999;
+}
+
+.slider{
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    position: relative;
+}
+
+.slider:hover{
+    animation-play-state: paused;
+
+}
+
+@keyframes testimonialscroll {
+    0%{
+        transform: translateX(0);
+    }
+
+    100%{
+        transform: translateX(-100%);
+    }
+    
+}
+
+
+
+.cardes .carde1{
+    background-color: #fff;
+    width: 350px;
+    padding: 20px;
+    border-radius: 30px;
+    height: 170px;
+    margin-top: 30px;
+    position: relative;
+   
+    z-index: 1;
+}
+
+.cardes .carde1::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 130px;
+    z-index: -1;
+
+}
+
+.cardes .carde1 p{
+    font-size: 15px;
+    letter-spacing: .5px;
+    line-height: 1.3;
+    margin-top: 10px;
+}
+
+.cardes .carde1 .fa-ellipsis{
+    font-size: 25px;
+
+}
+
+.fa-quote-left{
+    color: #e91e62;
+}
+
+.slider .cardes .carde1 img{
+    width: 80px;
+    height: 80px;
+    border-radius: 45px;
+    border: 3px solid #e91e62;
+    position: absolute;
+    top: -40px;
+   right: 160px;
+}
