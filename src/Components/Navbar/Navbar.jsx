@@ -5,6 +5,7 @@ import {Link, NavLink} from 'react-router-dom'
 
 
 
+
 const Navbar = () => {
   return (
     <div className='navbar'>
@@ -21,8 +22,8 @@ const Navbar = () => {
       </ul>
 
       <div className="loginsignup">
-  <button className='login-btn btn'>Login</button>
-      <button className='signup-btn btn'>Sign Up</button>
+  <Link to='/Login'><button className='login-btn btn'>Login</button></Link>
+      <Link to='/Signup'><button className='signup-btn btn'>Sign Up</button></Link>
     </div>
 
     <div className="contact">

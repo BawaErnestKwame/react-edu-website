@@ -495,7 +495,6 @@ Rerum magni dolorem nulla ullam dolores exercitationem
 </div>
 </div>
 
-<Footer/>
     </div>
   )
 }
