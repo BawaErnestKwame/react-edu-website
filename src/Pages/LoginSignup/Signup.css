@@ -1,0 +1,37 @@
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 95vh;
+    color: black;
+}
+
+.signup-container{
+    margin-top: 60px;
+    display: flex;
+    gap: 1rem;
+    width: 800px;
+    height:78vh ;
+    background-color: aliceblue;
+    padding-right: 10px;
+}
+
+.signup-container .signup-image{
+    flex: 1;
+
+
+}
+
+.signup-container .signup-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.signup-form-container{
+    width: 100%;
+    flex: 1.5;
+
+}

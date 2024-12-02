@@ -56,7 +56,7 @@ const Login = () => {
               <div className="radio_forgot-passwords">
                 
                 <div className="input-radio">
-                    <input type="radio" />
+                    <input type="radio"  className="radio"/>
                 </div>
 
                 <p> Please Remember Me</p>

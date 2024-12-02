@@ -1,5 +1,10 @@
 import React from 'react';
+import './Signup.css'
 import signupImage from '../../assets/logo.jpg'; // Ensure the image path is correct
+import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
+import LockIcon from '@mui/icons-material/Lock';
+import EmailIcon from '@mui/icons-material/Email';
+import PersonIcon from '@mui/icons-material/Person';
 
 const Signup = () => {
   return (
@@ -16,31 +21,31 @@ const Signup = () => {
           <form className="form-box">
             {/* Full Name Input */}
             <div className="input-field">
-              <i className="fa-solid fa-user"></i>
+            <PersonIcon/>
               <input type="text" placeholder="Full Name" required />
             </div>
 
             {/* Email Input */}
             <div className="input-field">
-              <i className="fa-solid fa-envelope"></i>
+           <EmailIcon/>
               <input type="email" placeholder="Email" required />
             </div>
 
             {/* Password Input */}
             <div className="input-field">
-              <i className="fa-solid fa-lock"></i>
+            <LockIcon/>
               <input type="password" placeholder="Password" required />
             </div>
 
             {/* Confirm Password Input */}
             <div className="input-field">
-              <i className="fa-solid fa-lock"></i>
+              <LockIcon/>
               <input type="password" placeholder="Confirm Password" required />
             </div>
 
             {/* Phone Number Input */}
             <div className="input-field">
-              <i className="fa-solid fa-phone"></i>
+             <LocalPhoneIcon />
               <input type="text" placeholder="Phone Number" />
             </div>
 
@@ -55,7 +60,7 @@ const Signup = () => {
 
             {/* Already have an account */}
             <p className="already-hv-account">
-              Already have an account? <a href="./login.html">Log In</a>
+              Already have an account? <a href="./Login">Log In</a>
             </p>
           </form>
         </div>
