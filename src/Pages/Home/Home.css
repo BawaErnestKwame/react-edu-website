@@ -592,6 +592,7 @@ button{
     overflow: hidden;
     position: relative;
     color: #0b012c;
+    margin-bottom: 50px;
    
 }
 
@@ -635,16 +636,7 @@ margin-bottom: 20px;
     
 }
 
-.slider::after{
-    content: "";
-    background:linear-gradient( #17025a, rgba(1, 1, 78, 0.884)) ;
-    position: absolute;
-    height: 400px;
-    width: 100px;
-    left: -100px;
-    top: -10px;
-    z-index: 999;
-}
+
 
 .slider{
     flex-wrap: nowrap;

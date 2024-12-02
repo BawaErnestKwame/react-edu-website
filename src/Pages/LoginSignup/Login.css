@@ -1,9 +1,121 @@
 
+
+.login-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.containerss{
+  margin-top: 70px;
+  display: flex;
+  width: 750px;
+  background-color: aliceblue;
+  height: 70vh;
+  gap: 1rem;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+}
+
+.login-form-container h1{
+  font-size: 1.8rem;
+  color: rgb(0, 0, 87);
+}
   .image-cont img {
     max-width: 100%;
     border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    border-left: 2px solid rgb(255, 255, 255);
+  }
+
+ .containerss:hover .image-cont img{
+    border-left: 2px solid rgb(243, 2, 103);
+  }
+
+  .containerss .image-cont{
+    flex: 1;
   }
   
+
+  .containerss .login-form-container{
+    color: black;
+   padding-right: 15px;
+    flex: 1;
+  }
+
+  .login-form-container h1{
+    margin: 1.5rem 0;
+
+  }
+
+  .input-filed {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 1.3rem;
+    background: rgba(223, 220, 222, 0.808);
+    padding: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.108);
+
+  }
+
+  .input-filed .inputs{
+    border: none;
+    background-color: transparent;
+
+  }
+
+ .radio_forgot-passwords{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 2rem;
+
+  }
+
+
+
+  .radio_forgot-passwords p{
+    color: rgba(116, 118, 119, 0.918);
+    font-size: 14px;
+  }
+
+  .login-btns{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.108);
+    transition: .5s;
+  }
+
+  .login-btns:hover{
+    background: rgb(175, 1, 68);
+  }
+  .dont-hv-account a{
+    color: brown;
+    margin-left: 10px;
+    font-size: 14px;
+
+  }
+  .dont-hv-account{
+    font-size: 14px;
+
+  }
+
+  .radio{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+  }
+
+
  
   
 
