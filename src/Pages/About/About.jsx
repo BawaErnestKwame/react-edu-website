@@ -145,8 +145,8 @@ const About = () => {
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Delectus amet cum, ea hic nostrum totam ipsam expedita consequatur voluptatem maxime 
           cumque asperiores facere odit accusantium inventore exercitationem libero minima voluptates!</p>
-          <div class="instructors">
-              <div class="instructor1">
+          <div class="instructorsrr">
+              <div class="instructorr1">
                 <div class="images_socials">
                   <img src={htmls} alt=""/>
                   <div class="socials">
@@ -163,7 +163,7 @@ const About = () => {
                 <h4>GRAPHIC DESIGNER</h4>
   
               </div>
-              <div class="instructor1">
+              <div class="instructorr1">
                 <div class="images_socials">
                   <img src={htmls} alt=""/>
                   <div class="socials">
@@ -180,7 +180,7 @@ const About = () => {
                 <h4>GRAPHIC DESIGNER</h4>
   
               </div>
-              <div class="instructor1">
+              <div class="instructorr1">
                 <div class="images_socials">
                   <img src={htmls} alt=""/>
                   <div class="socials">
@@ -197,7 +197,7 @@ const About = () => {
                 <h4>GRAPHIC DESIGNER</h4>
   
               </div>
-              <div class="instructor1">
+              <div class="instructorr1">
                 <div class="images_socials">
                   <img src={htmls} alt=""/>
                   <div class="socials">
@@ -214,7 +214,7 @@ const About = () => {
                 <h4>GRAPHIC DESIGNER</h4>
   
               </div>
-              <div class="instructor1">
+              <div class="instructorr1">
                 <div class="images_socials">
                   <img src={htmls} alt=""/>
                   <div class="socials">
@@ -231,7 +231,7 @@ const About = () => {
                 <h4>GRAPHIC DESIGNER</h4>
   
               </div>
-              <div class="instructor1">
+              <div class="instructorr1">
                 <div class="images_socials">
                   <img src={htmls} alt=""/>
                   <div class="socials">
@@ -248,7 +248,7 @@ const About = () => {
                 <h4>GRAPHIC DESIGNER</h4>
   
               </div>
-              <div class="instructor1">
+              <div class="instructorr1">
                 <div class="images_socials">
                   <img src={htmls} alt=""/>
                   <div class="socials">
@@ -265,7 +265,7 @@ const About = () => {
                 <h4>GRAPHIC DESIGNER</h4>
   
               </div>
-              <div class="instructor1">
+              <div class="instructorr1">
                 <div class="images_socials">
                   <img src={htmls} alt=""/>
                   <div class="socials">

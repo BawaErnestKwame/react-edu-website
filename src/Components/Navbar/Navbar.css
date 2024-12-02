@@ -103,5 +103,6 @@ a.active::after{
     background-color: #fff;
     position: absolute;
     top: 48px;
+    right: 1px;
 
 }
