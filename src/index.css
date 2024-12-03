@@ -23,6 +23,7 @@
     box-sizing: border-box;
     padding: 0;
     font-family: var(--font-family);
+    scroll-behavior: smooth;
   }
 
   body{

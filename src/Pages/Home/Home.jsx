@@ -13,6 +13,10 @@ import book2 from '../../assets/book-2.jpg'
 import StarRateIcon from '@mui/icons-material/StarRate';
 import StarHalfIcon from '@mui/icons-material/StarHalf';
 import html from '../../assets/html.jpeg'
+import javascript from '../../assets/javascript.jpeg'
+import css from '../../assets/css.jpeg'
+import marketing from '../../assets/marketing.jpeg'
+import adobe from '../../assets/adobe1.jpeg'
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import AddIcon from '@mui/icons-material/Add';
 import instructor1 from '../../assets/instructor1.jpeg'
@@ -23,6 +27,7 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 
 import SportsKabaddiIcon from '@mui/icons-material/SportsKabaddi';
 import Footer from '../../Components/Footer/Footer';
+import { Link } from 'react-router-dom';
 
 
 
@@ -36,12 +41,12 @@ const Home = () => {
       <div className="header">
         <div className="text-container">
           <h1>GET STARTED ON YOUR LEARNING AND
-          ENRICH YOUR DREAM</h1>
+        <span className='enrich-your-dream'>  ENRICH YOUR DREAM</span></h1>
 
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus suscipit quod, ipsa autem a nostrum molestias quas facere minus
           assumenda, officiis facilis quam sequi, est labore eum rem ratione! Impedit!</p>
 
-          <button className='find-course'>Find Courses  <ArrowForwardIcon/></button>
+         <Link to='/COURSES'> <button className='find-course'>Find Courses  <ArrowForwardIcon/></button></Link>
 
 
           <div className="cards">
@@ -213,7 +218,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
             <button>Get Started Now!</button>
           </div>
           <div className="course1">
-            <img src={html} alt="" className='subject' />
+            <img src={css} alt="" className='subject' />
             <h3>Ultimate HTML- From Beginner To Advanced Training Course</h3>
             <p>Develop Your Skill</p>
             <div className="stars">
@@ -230,7 +235,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
             <button>Get Started Now!</button>
           </div>
           <div className="course1">
-            <img src={html} alt="" className='subject' />
+            <img src={javascript} alt="" className='subject' />
             <h3>Ultimate HTML- From Beginner To Advanced Training Course</h3>
             <p>Develop Your Skill</p>
             <div className="stars">
@@ -247,7 +252,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
             <button className='get-started-btn'>Get Started Now!</button>
           </div>
           <div className="course1">
-            <img src={html} alt="" className='subject' />
+            <img src={adobe} alt="" className='subject' />
             <h3>Ultimate HTML- From Beginner To Advanced Training Course</h3>
             <p>Develop Your Skill</p>
             <div className="stars">
@@ -263,8 +268,8 @@ Rerum magni dolorem nulla ullam dolores exercitationem
             </div>
             <button>Get Started Now!</button>
           </div>
-
-          <button className='show-more-btn'> <ArrowForwardIcon/></button>
+<Link to='/COURSES'>
+         <button className='show-more-btn'> <ArrowForwardIcon/></button></Link>
         </div>
       </div>
 
@@ -380,7 +385,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
 
         </div>
 
-        <button className="instructor-btn">Find More Instructors<ArrowForwardIcon/></button>
+       <Link to='/ABOUT'> <button className="instructor-btn">Find More Instructors<ArrowForwardIcon/></button></Link>
 
     </div>
 

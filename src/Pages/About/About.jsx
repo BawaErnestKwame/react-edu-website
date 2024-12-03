@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
-import htmls from '../../assets/html.jpeg'
+import htmls from '../../assets/Adobeicons.jpeg'
+import book from '../../assets/download.jpeg'
 import { Link } from 'react-router-dom';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -8,6 +9,11 @@ import XIcon from '@mui/icons-material/X';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import AdsClickIcon from '@mui/icons-material/AdsClick';
+import instructor1 from '../../assets/instructor1.jpeg'
+import instructor2 from '../../assets/instructor2.jpeg'
+import instructor3 from '../../assets/instructor3.jpeg'
+import instructor4 from '../../assets/instructor4.jpeg'
+import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 
 const About = () => {
   return (
@@ -45,7 +51,7 @@ const About = () => {
         </div>
 
         <div class="image_right">
-          <img src={htmls} alt=""/>
+          <img src={book} alt=""/>
         </div>
       </div>
      </div>
@@ -148,7 +154,7 @@ const About = () => {
           <div class="instructorsrr">
               <div class="instructorr1">
                 <div class="images_socials">
-                  <img src={htmls} alt=""/>
+                  <img src={instructor1} alt=""/>
                   <div class="socials">
                   <Link><FacebookIcon/></Link>
      
@@ -165,7 +171,7 @@ const About = () => {
               </div>
               <div class="instructorr1">
                 <div class="images_socials">
-                  <img src={htmls} alt=""/>
+                  <img src={instructor2} alt=""/>
                   <div class="socials">
                   <Link><FacebookIcon/></Link>
      
@@ -182,7 +188,7 @@ const About = () => {
               </div>
               <div class="instructorr1">
                 <div class="images_socials">
-                  <img src={htmls} alt=""/>
+                  <img src={instructor3} alt=""/>
                   <div class="socials">
                   <Link><FacebookIcon/></Link>
      
@@ -199,7 +205,7 @@ const About = () => {
               </div>
               <div class="instructorr1">
                 <div class="images_socials">
-                  <img src={htmls} alt=""/>
+                  <img src={instructor4} alt=""/>
                   <div class="socials">
                   <Link><FacebookIcon/></Link>
      
@@ -216,7 +222,7 @@ const About = () => {
               </div>
               <div class="instructorr1">
                 <div class="images_socials">
-                  <img src={htmls} alt=""/>
+                  <img src={instructor2} alt=""/>
                   <div class="socials">
                   <Link><FacebookIcon/></Link>
      
@@ -233,7 +239,7 @@ const About = () => {
               </div>
               <div class="instructorr1">
                 <div class="images_socials">
-                  <img src={htmls} alt=""/>
+                  <img src={instructor1} alt=""/>
                   <div class="socials">
                   <Link><FacebookIcon/></Link>
      
@@ -250,7 +256,7 @@ const About = () => {
               </div>
               <div class="instructorr1">
                 <div class="images_socials">
-                  <img src={htmls} alt=""/>
+                  <img src={instructor4} alt=""/>
                   <div class="socials">
                   <Link><FacebookIcon/></Link>
      
@@ -267,7 +273,7 @@ const About = () => {
               </div>
               <div class="instructorr1">
                 <div class="images_socials">
-                  <img src={htmls} alt=""/>
+                  <img src={instructor3} alt=""/>
                   <div class="socials">
                   <Link><FacebookIcon/></Link>
      

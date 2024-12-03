@@ -1,77 +1,109 @@
 import React from 'react'
 import './Contact.css'
 import map from '../../assets/map.jpeg'
+import CallIcon from '@mui/icons-material/Call';
+import AttachEmailIcon from '@mui/icons-material/AttachEmail';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 const Contact = () => {
+    const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "9061a4ea-ad3d-4650-8693-de57abededa0");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+
+}
+
   return (
     <div>
-      <div class="container">
-        <div class="text">
+      <div className="container">
+        <div className="text">
           <h1>CONTACT US/</h1>
         </div>
     </div>
 
-    <div class="contact_us_getin_touch_right_left">
-        <div class="left">
+    <div className="contact_us_getin_touch_right_left">
+        <div className="left">
             <h2>Contact Us</h2>
-            <div class="locations">
-                <i class="fa-solid fa-location-dot"></i>
+            <div className="locations">
+                <LocationOnIcon/>
                 SUNYANI Bono Region
 
             </div>
 
-            <div class="emails">
-                <i class="fa-solid fa-square-envelope"></i>
+            <div className="emails">
+              <CallIcon/>
                 bawaernest926@gmail.com
 
             </div>
 
-            <div class="coallus">
-                <i class="fa-solid fa-phone"></i>
+            <div className="coallus">
+               < AttachEmailIcon/>
                 <p>+233599316218</p>
             </div>
 
-            <div class="contactus2">
-                <i class="fa-solid fa-address-book"></i>
+            <div className="contactus2">
+            <CallIcon/>
                 +233599316218
             </div>
-
-
-            <i class="fa-solid fa-bars" id="menu-icon" onclick="showSidebar()"></i>
+            
         </div>
 
-        <div class="right">
-            <div class="getintouch">
+        <div className="right">
+            <div className="getintouch">
                 <h2>Get In Touch With Us</h2>
                 <h4>AND WE WILL GET BACK TO YOU LATER</h4>
             </div>
 
-            <div class="form_container">
-                <div class="full_name">
-                    <input type="text" placeholder="First Name"/>
-                    <input type="text" placeholder="Last Name"/>
+            <form className="form_container" onSubmit={onSubmit}>
+                <div className="full_name">
+                    <input type="text" placeholder="First Name" name='name'/>
+                    <input type="text" placeholder="Last Name" name='last name'/>
                 </div>
 
-                <div class="input_filed">
-                    <input type="email" placeholder="Email" required/>
+                <div className="input_filed">
+                    <input type="email" placeholder="Email" required name='email'/>
                 </div>
-                <div class="input_filed">
-                    <input type="text" placeholder="Subject" required/>
+                <div className="input_filed">
+                    <input type="text" placeholder="Subject" required name='subject'/>
                 </div>
 
                 <textarea name="text" id="message">Message</textarea>
+
+
+                <button className='submit'>SUBMIT</button>
+
+            <span>{result}</span>
              
 
 
 
-            </div>
+            </form>
 
-            <button className='submit'>SUBMIT</button>
+            
 
         </div>
     </div>
 
-    <div class="mapps_toshow">
+    <div className="mapps_toshow">
         <img src={map} alt=""/>
     </div>
     </div>
