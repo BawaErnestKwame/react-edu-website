@@ -17,176 +17,176 @@ import instructor4 from '../../assets/instructor4.jpeg'
 const Cources = () => {
   return (
     <div>
-      <div class="our-coursepage">
+      <div className="our-coursepage">
         <h1>OUR COURSES PAGE🧑/</h1>
-        <div class="home_course">
+        <div className="home_course">
         <Link to='/'><button >Home</button></Link>
            <p></p>
          <button>Our Course</button>
         </div>
     </div>
 
-    <div class="courses-card">
-        <div class="card1">
+    <div className="courses-card">
+        <div className="card1">
             <img src={htmls } alt="" />
             <h3> Ultimate HTML- From Beginner To Advanced Training Course</h3>
             <p>Develop Your Skill</p>
-            <div class="rating-name">
-                <div class="rating">
+            <div className="rating-name">
+                <div className="rating">
                 <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarHalfIcon/>
                 </div>
-                <div class="instructor">
+                <div className="instructor">
                <img src={instructor1 } alt="" />
                     <h4>Bawa Ernest Kwame</h4>
                 </div>
             </div>
 
-            <button class="get-started-btn">Get Started now!</button>
+            <button className="get-started-btn">Get Started now!</button>
         </div>
-        <div class="card1">
+        <div className="card1">
         <img src={css } alt=""/>
             <h3> Ultimate HTML- From Beginner To Advanced Training Course</h3>
             <p>Develop Your Skill</p>
-            <div class="rating-name">
-                <div class="rating">
+            <div className="rating-name">
+                <div className="rating">
                 <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarHalfIcon/>
                 </div>
-                <div class="instructor">
+                <div className="instructor">
                 <img src={instructor2 } alt=""/>
                     <h4>Bawa Ernest Kwame</h4>
                 </div>
             </div>
 
-            <button class="get-started-btn">Get Started now!</button>
+            <button className="get-started-btn">Get Started now!</button>
         </div>
-        <div class="card1">
+        <div className="card1">
         <img src={javascript } alt=""/>
             <h3> Ultimate HTML- From Beginner To Advanced Training Course</h3>
             <p>Develop Your Skill</p>
-            <div class="rating-name">
-                <div class="rating">
+            <div className="rating-name">
+                <div className="rating">
                 <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarHalfIcon/>
                 </div>
-                <div class="instructor">
+                <div className="instructor">
                 <img src={instructor3 } alt=""/>
                     <h4>Bawa Ernest Kwame</h4>
                 </div>
             </div>
 
-            <button class="get-started-btn">Get Started now!</button>
+            <button className="get-started-btn">Get Started now!</button>
         </div>
-        <div class="card1">
+        <div className="card1">
         <img src={adobe } alt=""/>
             <h3> Ultimate HTML- From Beginner To Advanced Training Course</h3>
             <p>Develop Your Skill</p>
-            <div class="rating-name">
-                <div class="rating">
+            <div className="rating-name">
+                <div className="rating">
                 <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarHalfIcon/>
                 </div>
-                <div class="instructor">
+                <div className="instructor">
                 <img src={instructor4 } alt=""/>
                     <h4>Bawa Ernest Kwame</h4>
                 </div>
             </div>
 
-            <button class="get-started-btn"><a href="./course.html">Get Started now!</a></button>
+            <button className="get-started-btn"><a href="./course.html">Get Started now!</a></button>
         </div>
  
-        <div class="card1">
+        <div className="card1">
         <img src={marketing } alt=""/>
             <h3> Ultimate HTML- From Beginner To Advanced Training Course</h3>
             <p>Develop Your Skill</p>
-            <div class="rating-name">
-                <div class="rating">
+            <div className="rating-name">
+                <div className="rating">
                 <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarHalfIcon/>
                 </div>
-                <div class="instructor">
+                <div className="instructor">
                 <img src={instructor1 } alt=""/>
                     <h4>Bawa Ernest Kwame</h4>
                 </div>
             </div>
 
-            <button class="get-started-btn">Get Started now!</button>
+            <button className="get-started-btn">Get Started now!</button>
         </div>
-        <div class="card1">
+        <div className="card1">
         <img src={javascript } alt=""/>
             <h3> Ultimate HTML- From Beginner To Advanced Training Course</h3>
             <p>Develop Your Skill</p>
-            <div class="rating-name">
-                <div class="rating">
+            <div className="rating-name">
+                <div className="rating">
                 <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarHalfIcon/>
                 </div>
-                <div class="instructor">
+                <div className="instructor">
                 <img src={instructor4} alt=""/>
                     <h4>Bawa Ernest Kwame</h4>
                 </div>
             </div>
 
-            <button class="get-started-btn">Get Started now!</button>
+            <button className="get-started-btn">Get Started now!</button>
         </div>
-        <div class="card1">
+        <div className="card1">
         <img src={adobe} alt=""/>
             <h3> Ultimate HTML- From Beginner To Advanced Training Course</h3>
             <p>Develop Your Skill</p>
-            <div class="rating-name">
-                <div class="rating">
+            <div className="rating-name">
+                <div className="rating">
                 <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarHalfIcon/>
                 </div>
-                <div class="instructor">
+                <div className="instructor">
                 <img src={instructor1} alt=""/>
                     <h4>Bawa Ernest Kwame</h4>
                 </div>
             </div>
 
-            <button class="get-started-btn">Get Started now!</button>
+            <button className="get-started-btn">Get Started now!</button>
         </div>
-        <div class="card1">
+        <div className="card1">
         <img src={marketing} alt=""/>
             <h3> Ultimate HTML- From Beginner To Advanced Training Course</h3>
             <p>Develop Your Skill</p>
-            <div class="rating-name">
-                <div class="rating">
+            <div className="rating-name">
+                <div className="rating">
                 <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarRateIcon />
               <StarHalfIcon/>
                 </div>
-                <div class="instructor">
+                <div className="instructor">
                 <img src={instructor3 } alt=""/>
                     <h4>Bawa Ernest Kwame</h4>
                 </div>
             </div>
 
-            <button class="get-started-btn"><a href="./course.html">Get Started now!</a></button>
+            <button className="get-started-btn"><a href="./course.html">Get Started now!</a></button>
         </div>
  
      </div>

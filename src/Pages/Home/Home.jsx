@@ -278,71 +278,71 @@ Rerum magni dolorem nulla ullam dolores exercitationem
         </div>
       </div>
 
-      <div class="sugested-questions">
+      <div className="sugested-questions">
         <h3>QUESTIONS</h3>
     <h1>SUGESTED QUESTION</h1>
-    <did class="water">
-        <i class="fa-solid fa-water"></i>
-    </did>
-    <div class="question_answers">
-        <div class="question">
+    <div className="water">
+        <i className="fa-solid fa-water"></i>
+    </div>
+    <div className="question_answers">
+        <div className="question">
             <p><AddIcon/>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             <ArrowDownwardIcon/>
 
         </div>
-        <div class="answers open">
+        <div className="answers open">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Iste dolore laborum ut dolorem optio repudiandae reprehenderit 
                 veritatis eos soluta saepe 
                 iure neque itaque repellendus assumenda id vel dicta, quam sed?</p>
         </div>
     </div>
-    <div class="question_answers">
-        <div class="question">
+    <div className="question_answers">
+        <div className="question">
             <p><AddIcon/>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             <ArrowDownwardIcon/>
 
         </div>
-        <div class="answers open">
+        <div className="answers open">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Iste dolore laborum ut dolorem optio repudiandae reprehenderit 
                 veritatis eos soluta saepe 
                 iure neque itaque repellendus assumenda id vel dicta, quam sed?</p>
         </div>
     </div>
-    <div class="question_answers">
-        <div class="question">
+    <div className="question_answers">
+        <div className="question">
             <p><AddIcon/>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             <ArrowDownwardIcon/>
 
         </div>
-        <div class="answers open">
+        <div className="answers open">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Iste dolore laborum ut dolorem optio repudiandae reprehenderit 
                 veritatis eos soluta saepe 
                 iure neque itaque repellendus assumenda id vel dicta, quam sed?</p>
         </div>
     </div>
-    <div class="question_answers">
-        <div class="question">
+    <div className="question_answers">
+        <div className="question">
             <p><AddIcon/>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             <ArrowDownwardIcon/>
 
         </div>
-        <div class="answers open">
+        <div className="answers open">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Iste dolore laborum ut dolorem optio repudiandae reprehenderit 
                 veritatis eos soluta saepe 
                 iure neque itaque repellendus assumenda id vel dicta, quam sed?</p>
         </div>
     </div>
-    <div class="question_answers">
-        <div class="question">
+    <div className="question_answers">
+        <div className="question">
             <p><AddIcon/>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
            <ArrowDownwardIcon/>
 
         </div>
-        <div class="answers open">
+        <div className="answers open">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Iste dolore laborum ut dolorem optio repudiandae reprehenderit 
                 veritatis eos soluta saepe 
@@ -399,13 +399,13 @@ Rerum magni dolorem nulla ullam dolores exercitationem
 
     {/* testimonials sections */}
 
-    <div class="testimonial_section">
+    <div className="testimonial_section">
     <h3>TESTIMONIAL</h3>
     <h1>What Our Student Say About Us</h1>
 
-    <div class="slider">
-    <div class="cardes">
-        <div class="carde1">
+    <div className="slider">
+    <div className="cardes">
+        <div className="carde1">
       <img src={instructor4} alt="" /> 
       <h1><SportsKabaddiIcon/></h1>
             <p>Lorem ipsum dolor sit amet, consectetur 
@@ -417,7 +417,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
 
                  <h6><MoreHorizIcon/></h6>
         </div>
-        <div class="carde1">
+        <div className="carde1">
         <img src={instructor1} alt="" />
         <h1><SportsKabaddiIcon/></h1>
             <p>Lorem ipsum dolor sit amet, consectetur 
@@ -427,7 +427,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
 
                  <h6><MoreHorizIcon/></h6>
         </div>
-        <div class="carde1">
+        <div className="carde1">
            <img src={instructor1} alt="" />
            <h1><SportsKabaddiIcon/></h1>
             <p>Lorem ipsum dolor sit amet, consectetur 
@@ -439,7 +439,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
 
                  <h6><MoreHorizIcon/></h6>
         </div>
-        <div class="carde1">
+        <div className="carde1">
           <img src={instructor3} alt="" />
           <h1><SportsKabaddiIcon/></h1>
             <p>Lorem ipsum dolor sit amet, consectetur 
@@ -452,8 +452,8 @@ Rerum magni dolorem nulla ullam dolores exercitationem
                  <h6><MoreHorizIcon/></h6>
         </div>
     </div>
-    <div class="cardes">
-        <div class="carde1">
+    <div className="cardes">
+        <div className="carde1">
             <img src={instructor1} alt="" />
             <h1><SportsKabaddiIcon/></h1>
             <p>Lorem ipsum dolor sit amet, consectetur 
@@ -465,7 +465,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
 
                  <h6><MoreHorizIcon/></h6>
         </div>
-        <div class="carde1">
+        <div className="carde1">
            <img src={instructor2} alt="" />
            <h1><SportsKabaddiIcon/></h1>
             <p>Lorem ipsum dolor sit amet, consectetur 
@@ -477,7 +477,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
 
                  <h6><MoreHorizIcon/></h6>
         </div>
-        <div class="carde1">
+        <div className="carde1">
         <img src={instructor3}alt="" />
         <h1><SportsKabaddiIcon/></h1>
             <p>Lorem ipsum dolor sit amet, consectetur 
@@ -489,7 +489,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
 
                  <h6><MoreHorizIcon/></h6>
         </div>
-        <div class="carde1">
+        <div className="carde1">
           <img src={instructor4}alt="" />
             <h1><SportsKabaddiIcon/></h1>
             <p>Lorem ipsum dolor sit amet, consectetur 

@@ -2,9 +2,12 @@ import React from 'react';
 import './Navbar.css';
 import ContactPhoneIcon from '@mui/icons-material/ContactPhone';
 import { Link, NavLink } from 'react-router-dom';
+import MenuIcon from '@mui/icons-material/Menu';
+import ClearIcon from '@mui/icons-material/Clear';
 
 const Navbar = () => {
   return (
+    <>
     <div className='navbar'>
       <div className="logo">
        <Link to="/"> <h1>Be<span>Code</span></h1></Link>
@@ -12,16 +15,16 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to="/" activeClassName="active" exact>HOME</NavLink>
+            <NavLink to="/">HOME</NavLink>
           </li>
           <li>
-            <NavLink to="/ABOUT" activeClassName="active">ABOUT</NavLink>
+            <NavLink to="/ABOUT">ABOUT</NavLink>
           </li>
           <li>
-            <NavLink to="/COURSES" activeClassName="active">COURSES</NavLink>
+            <NavLink to="/COURSES" >COURSES</NavLink>
           </li>
           <li>
-            <NavLink to="/CONTACT" activeClassName="active">CONTACT</NavLink>
+            <NavLink to="/CONTACT" >CONTACT</NavLink>
           </li>
         </ul>
 
@@ -37,7 +40,52 @@ const Navbar = () => {
           <p>+233599316218</p>
         </div>
       </nav>
+
+     
+        <div className='btns menu-btn'><MenuIcon/></div>
+       
+   
     </div>
+
+    <div className='sideNave'>
+
+
+      <div className="logo">
+       <Link to="/"> <h1>Be<span>Code</span></h1></Link>
+       <div className='btns close-btn'><ClearIcon/></div>
+   
+      </div>
+      <nav>
+        <ul>
+        
+          <li>
+            <NavLink to="/">HOME</NavLink>
+          </li>
+          <li>
+            <NavLink to="/ABOUT">ABOUT</NavLink>
+          </li>
+          <li>
+            <NavLink to="/COURSES" >COURSES</NavLink>
+          </li>
+          <li>
+            <NavLink to="/CONTACT" >CONTACT</NavLink>
+          </li>
+        </ul>
+
+        <div className="loginsignup">
+          <Link to="/Login"><button className='login-btn btn'>Login</button></Link>
+          <Link to="/Signup"><button className='signup-btn btn'>Sign Up</button></Link>
+        </div>
+
+   
+      </nav>
+
+     
+       
+   
+    </div>
+
+    </>
   );
 };
 

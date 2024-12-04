@@ -35,6 +35,17 @@ nav ul li{
     letter-spacing: .5px;
 }
 
+
+.menu-btn,
+.close-btn{
+    font-size: 4rem;
+    background-color: transparent;
+  font-weight: bolder;
+  display: none;
+
+  
+}
+
 .contact{
     display: flex;
     position: relative;
@@ -106,3 +117,103 @@ a.active::after{
     right: 1px;
 
 }
+
+.sideNave{
+    display: none;
+}
+
+
+@media screen and (max-width:1200px) {
+    .navbar{
+        width: 100%;
+        padding: 12px 3rem;
+    }
+    
+    nav{
+        gap: 5rem;
+    }
+    
+    nav ul{
+        gap: 1.5rem;
+    }
+    
+}
+
+
+@media screen and  (max-width:992px) {
+    .navbar{
+        width: 100%;
+        padding: 12px 1.5rem;
+    }
+    
+    nav{
+        gap: 5rem;
+    }
+    
+   .navbar nav ul{
+       display: none;
+    }
+
+    .sideNave{
+       
+        display: flex;
+   
+        flex-direction: column;
+        position: fixed;
+        right: 0;
+        top:0;
+        position: absolute;
+        background-color: #dd0495;
+       width: 300px;
+       z-index: 999;
+       height: 100%;
+    }
+
+    .sideNave .logo .close-btn{
+        color: rgb(255, 255, 255);
+        display: block;
+     
+        
+    }
+
+    .sideNave .logo{
+        display: flex;
+      
+        justify-content: space-between; 
+        padding: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    
+    .sideNave nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .sideNave nav ul{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .menu-btn
+{
+   
+  display: block;
+  align-items: center;
+  display: flex;
+  
+}
+
+nav{
+    gap: 8rem;
+}
+
+.btn{
+    margin: 20px;
+}
+
+}
+
+@media screen and  (max-width:768px) {}

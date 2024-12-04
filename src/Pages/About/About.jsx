@@ -18,17 +18,18 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 const About = () => {
   return (
     <div>
-      <div class="about_us_container">
-      <div class="home_about_us">
-        <a href="index.html"> <h2>Home </h2></a>
+      <div className="about_us_container">
+      <div className="home_about_us">
+        <Link to='/HOME'>  <h2>Home </h2></Link>
+    
         <h2>/ About Us</h2>
       </div>
     </div> 
 
     {/* <!-- we are story  developers--> */}
-    <div class="are_becode_team">
-      <div class="text_user1">
-        <div class="text_left1">
+    <div className="are_becode_team">
+      <div className="text_user1">
+        <div className="text_left1">
           <h1>WE ARE BECODE TEAM</h1>
           <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. I
             nventore est ducimus ad obcaecati natus voluptas corrupti omnis quis neque! 
@@ -50,53 +51,53 @@ const About = () => {
             </p>
         </div>
 
-        <div class="image_right">
+        <div className="image_right">
           <img src={book} alt=""/>
         </div>
       </div>
      </div>
 
-     <div class="why_chose_use">
-      <div class="why_choose_us_image">
+     <div className="why_chose_use">
+      <div className="why_choose_us_image">
         <img src={htmls} alt=""/>
 
       </div>
 
-      <div class="why_choose_us_text">
+      <div className="why_choose_us_text">
         <h1>WHY CHOOSE US</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
           Iure tempora molestiae corporis eligendi deserunt maxime 
           fugit exercitationem dicta veritatis distinctio iusto dolore repellat, illo odit. 
           A ab iusto magnam est.</p>
-          <div class="infor">
-            <div class="left">
-              <div class="first_infor">
+          <div className="infor">
+            <div className="left">
+              <div className="first_infor">
                 <h2><AdsClickIcon/></h2>
-                <div class="text2">
+                <div className="text2">
                   <h3>CREATIVE AND DESIGN</h3>
                   <p>Lorem ipsum dolor sit amet</p>
                 </div>
 
               </div>
-              <div class="first_infor">
+              <div className="first_infor">
               <h2><AdsClickIcon/></h2>
-                <div class="text2">
+                <div className="text2">
                   <h3>LEARNING AYTHING</h3>
                   <p>Lorem ipsum dolor sit amet</p>
                 </div>
 
               </div>
-              <div class="first_infor">
+              <div className="first_infor">
               <h2><AdsClickIcon/></h2>
-                <div class="text2">
+                <div className="text2">
                   <h3>LEAR WITH EXPERTS</h3>
                   <p>Lorem ipsum dolor sit amet</p>
                 </div>
 
               </div>
-              <div class="first_infor">
+              <div className="first_infor">
               <h2><AdsClickIcon/></h2>
-                <div class="text2">
+                <div className="text2">
                   <h3>FLEXIBLE LEARNING</h3>
                   <p>Lorem ipsum dolor sit amet</p>
                 </div>
@@ -105,34 +106,34 @@ const About = () => {
 
             </div>
 
-            <div class="right">
-              <div class="first_infor">
+            <div className="right">
+              <div className="first_infor">
               <h2><AdsClickIcon/></h2>
-                <div class="text2">
+                <div className="text2">
                   <h3>EASY TO CUSTOMIZE</h3>
                   <p>Lorem ipsum dolor sit amet</p>
                 </div>
 
               </div>
-              <div class="first_infor">
+              <div className="first_infor">
               <h2><AdsClickIcon/></h2>
-                <div class="text2">
+                <div className="text2">
                   <h3>CREATIVE AND DESIGN</h3>
                   <p>Lorem ipsum dolor sit amet</p>
                 </div>
 
               </div>
-              <div class="first_infor">
+              <div className="first_infor">
               <h2><AdsClickIcon/></h2>
-                <div class="text2">
+                <div className="text2">
                   <h3>GET MORE SKILLS</h3>
                   <p>Lorem ipsum dolor sit amet</p>
                 </div>
 
               </div>
-              <div class="first_infor">
+              <div className="first_infor">
               <h2><AdsClickIcon/></h2>
-                <div class="text2">
+                <div className="text2">
                   <h3>EASY TO UNDERSTAND</h3>
                   <p>Lorem ipsum dolor sit amet</p>
                 </div>
@@ -146,16 +147,16 @@ const About = () => {
 
      {/* <!-- OUR TEAMS --> */}
 
-     <div class="popular-instructors">
+     <div className="popular-instructors">
       <h1>INTRUCTORS</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
           Delectus amet cum, ea hic nostrum totam ipsam expedita consequatur voluptatem maxime 
           cumque asperiores facere odit accusantium inventore exercitationem libero minima voluptates!</p>
-          <div class="instructorsrr">
-              <div class="instructorr1">
-                <div class="images_socials">
+          <div className="instructorsrr">
+              <div className="instructorr1">
+                <div className="images_socials">
                   <img src={instructor1} alt=""/>
-                  <div class="socials">
+                  <div className="socials">
                   <Link><FacebookIcon/></Link>
      
      <Link>   <InstagramIcon/></Link>
@@ -169,10 +170,10 @@ const About = () => {
                 <h4>GRAPHIC DESIGNER</h4>
   
               </div>
-              <div class="instructorr1">
-                <div class="images_socials">
+              <div className="instructorr1">
+                <div className="images_socials">
                   <img src={instructor2} alt=""/>
-                  <div class="socials">
+                  <div className="socials">
                   <Link><FacebookIcon/></Link>
      
      <Link>   <InstagramIcon/></Link>
@@ -186,10 +187,10 @@ const About = () => {
                 <h4>GRAPHIC DESIGNER</h4>
   
               </div>
-              <div class="instructorr1">
-                <div class="images_socials">
+              <div className="instructorr1">
+                <div className="images_socials">
                   <img src={instructor3} alt=""/>
-                  <div class="socials">
+                  <div className="socials">
                   <Link><FacebookIcon/></Link>
      
      <Link>   <InstagramIcon/></Link>
@@ -203,10 +204,10 @@ const About = () => {
                 <h4>GRAPHIC DESIGNER</h4>
   
               </div>
-              <div class="instructorr1">
-                <div class="images_socials">
+              <div className="instructorr1">
+                <div className="images_socials">
                   <img src={instructor4} alt=""/>
-                  <div class="socials">
+                  <div className="socials">
                   <Link><FacebookIcon/></Link>
      
      <Link>   <InstagramIcon/></Link>
@@ -220,10 +221,10 @@ const About = () => {
                 <h4>GRAPHIC DESIGNER</h4>
   
               </div>
-              <div class="instructorr1">
-                <div class="images_socials">
+              <div className="instructorr1">
+                <div className="images_socials">
                   <img src={instructor2} alt=""/>
-                  <div class="socials">
+                  <div className="socials">
                   <Link><FacebookIcon/></Link>
      
                   <Link>   <InstagramIcon/></Link>
@@ -237,10 +238,10 @@ const About = () => {
                 <h4>GRAPHIC DESIGNER</h4>
   
               </div>
-              <div class="instructorr1">
-                <div class="images_socials">
+              <div className="instructorr1">
+                <div className="images_socials">
                   <img src={instructor1} alt=""/>
-                  <div class="socials">
+                  <div className="socials">
                   <Link><FacebookIcon/></Link>
      
                   <Link>   <InstagramIcon/></Link>
@@ -254,10 +255,10 @@ const About = () => {
                 <h4>GRAPHIC DESIGNER</h4>
   
               </div>
-              <div class="instructorr1">
-                <div class="images_socials">
+              <div className="instructorr1">
+                <div className="images_socials">
                   <img src={instructor4} alt=""/>
-                  <div class="socials">
+                  <div className="socials">
                   <Link><FacebookIcon/></Link>
      
                   <Link>   <InstagramIcon/></Link>
@@ -271,10 +272,10 @@ const About = () => {
                 <h4>GRAPHIC DESIGNER</h4>
   
               </div>
-              <div class="instructorr1">
-                <div class="images_socials">
+              <div className="instructorr1">
+                <div className="images_socials">
                   <img src={instructor3} alt=""/>
-                  <div class="socials">
+                  <div className="socials">
                   <Link><FacebookIcon/></Link>
      
      <Link>   <InstagramIcon/></Link>
@@ -293,10 +294,10 @@ const About = () => {
   </div>
   
 
-  <div class="ready_to_kick_start_your_career">
-    <div class="items">
+  <div className="ready_to_kick_start_your_career">
+    <div className="items">
       <h3>Ready to Kick Start Your Career?</h3>
-      <a href="./course.html"><button class="btn">Try For Free</button></a>
+     <Link to='/Login'><button>Try For Free</button></Link>
     </div>
   </div>
     </div>

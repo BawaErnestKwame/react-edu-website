@@ -15,45 +15,45 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 const Footer = () => {
   return (
     <div> 
-      <div class="foooter-container">
-    <div class="footer-text">
-        <div class="flex1">
-            <div class="logo-footer">
+      <div className="foooter-container">
+    <div className="footer-text">
+        <div className="flex1">
+            <div className="logo-footer">
                 <h1>Be<span>Code</span></h1>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur
                  adipisicing elit.
                  Est nulla provident, eum nihil soluta </p>
 
-                 <div class="location">
+                 <div className="location">
                    <LocationOnIcon/>
                     <p>Ghana, SUNYANI BRONO</p>
                  </div>
         </div>
 
-        <div class="flex2">
+        <div className="flex2">
             <h2>Navigation</h2>
-            <div class="links">
+            <div className="links">
          <Link to='/Home'><li>Home</li></Link>
          <Link to='/About'><li>About</li></Link>
          <Link to='/Courses'><li>Courses</li></Link>
          <Link to='/Contact'><li>Contact</li></Link>
         </div>
-            <div class="call">
+            <div className="call">
             <CallIcon/>
            <p>+233599316218</p>
            </div>
         </div>
 
-            <div class="flex3">
+            <div className="flex3">
                 <h2>Quick Links</h2>
-                <div class="links">
+                <div className="links">
                 <a href="/course.html">Find Courses</a>
                 <a href="./course.html">Get Started now!</a>
                 <a href="./course.html"></a>
                 <a href="./course.html">Descover More</a>
             </div>
-                <div class="mail">
+                <div className="mail">
                    < AttachEmailIcon/>
                   <p>bawaernest926@gmail.com</p>
                 </div>
@@ -61,9 +61,9 @@ const Footer = () => {
                
             </div>
 
-            <div class="flex4">
+            <div className="flex4">
                 <h2>Our Social Medial Handle</h2>
-                <div class="footer-socials">
+                <div className="footer-socials">
                   <Link><FacebookIcon/></Link>
      
                   <Link>   <InstagramIcon/></Link>
@@ -72,7 +72,7 @@ const Footer = () => {
                   <Link> < TelegramIcon /></Link>
                  
                  </div>
-                 <div class="flex5">
+                 <div className="flex5">
                <Link to='/Home'><KeyboardDoubleArrowUpIcon/></Link>
                 
                  </div>
@@ -89,7 +89,7 @@ const Footer = () => {
 </div>
 
 <hr />
-<div class="copyright">
+<div className="copyright">
     <p>Copyright 2024<CopyrightIcon/>, All Right Reserved</p>
 </div>
 
