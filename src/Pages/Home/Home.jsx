@@ -28,6 +28,7 @@ import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import SportsKabaddiIcon from '@mui/icons-material/SportsKabaddi';
 import Footer from '../../Components/Footer/Footer';
 import { Link } from 'react-router-dom';
+import CountUp from 'react-countup';
 
 
 
@@ -51,18 +52,18 @@ const Home = () => {
 
           <div className="cards">
             <div className="card1">
-           <EmojiPeopleIcon color='action'  sx={{ fontSize: 60 }}/>
-              <h1>400+</h1>
+           <EmojiPeopleIcon sx={{ fontSize: 60 }}/>
+              <h1><CountUp start={50} end={400} duration={4}/> +</h1>
               <h2>INSTRUCTORS</h2>
             </div>
             <div className="card1">
-            <HailIcon color='action'  sx={{ fontSize: 60 }}/>
-              <h1>2500+</h1>
+            <HailIcon  sx={{ fontSize: 60 }}/>
+              <h1><CountUp start={200} end={25000} duration={4}/>+</h1>
               <h2>  STUDENTS</h2>
             </div>
             <div className="card1">
-           <AirlineSeatReclineNormalIcon   color='action'  sx={{ fontSize: 60 }}/>
-              <h1>150+</h1>
+           <AirlineSeatReclineNormalIcon  sx={{ fontSize: 60 }}/>
+              <h1><CountUp start={10} end={150} duration={4}/> +</h1>
               <h2>DEPARTMENTS</h2>
             </div>
           </div>
@@ -85,28 +86,32 @@ const Home = () => {
           <HailIcon/>
           </div>
 
-          <p>700+ <br /> Online Course</p>
+          <p>Top <br /> 
+          Instructor</p>
         </div>
         <div className="description1">
           <div className="icon">
           <HailIcon/>
           </div>
 
-          <p>700+ <br /> Online Course</p>
+          <p> Online<br />
+          Certification</p>
         </div>
         <div className="description1">
           <div className="icon">
           <HailIcon/>
           </div>
 
-          <p>700+ <br /> Online Course</p>
+          <p>600+ <br />
+          members</p>
         </div>
         <div className="description1">
           <div className="icon">
           <HailIcon/>
           </div>
 
-          <p>700+ <br /> Online Course</p>
+          <p>200+ <br />
+          acheivmen</p>
         </div>
       </div>
 
