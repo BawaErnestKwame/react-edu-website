@@ -385,6 +385,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
                 <img src={instructor4} alt="" />
                 <h5> BAWA ERNEST KWAME</h5>
                 <h4>GRAPHIC DESIGNER</h4>
+           
 
             </div>
 

@@ -251,3 +251,29 @@ nav{
 
 
 }
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .loginsignups{
+        display: none;
+    }
+
+    .contact{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    .loginsignups{
+        display: none;
+    }
+
+    .contact{
+        display: none;
+    }
+    
+}
