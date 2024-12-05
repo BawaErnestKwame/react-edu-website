@@ -273,9 +273,9 @@ Rerum magni dolorem nulla ullam dolores exercitationem
             </div>
             <button>Get Started Now!</button>
           </div>
-<Link to='/COURSES'>
-         <button className='show-more-btn'> <ArrowForwardIcon/></button></Link>
         </div>
+        <Link to='/COURSES'>
+<button className='show-more-btn'> <ArrowForwardIcon/></button></Link>
       </div>
 
       <div className="sugested-questions">

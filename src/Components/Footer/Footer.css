@@ -156,3 +156,67 @@ color: #e91e62;
     color: #eef3ed;
    
  }
+
+
+ @media screen and (max-width:1200px) {
+    .foooter-container{
+        padding: 2rem 3rem;
+        width: 100%;
+        height: 50vh;
+    }
+    
+
+    .foooter-container .footer-text{
+        display: flex;
+        gap: 2%;
+    }
+    
+    .flex1 p{
+       
+        width: 250px;
+    
+        
+    }
+    
+    
+ }
+
+
+ @media screen and (max-width:992px){
+    .foooter-container{
+        padding: 2rem 1.5rem;
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .foooter-container .footer-text{
+        flex-wrap: wrap;
+        gap: 2%;
+    }
+
+
+ }
+
+ @media screen and (max-width:768px){
+    .foooter-container{
+        padding: 2rem 1rem;
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+ }
+
+ @media screen and (max-width:480px){
+    .foooter-container{
+        padding: 2rem 1rem;
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+ }
+
+
+

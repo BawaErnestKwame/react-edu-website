@@ -167,6 +167,7 @@ a.active::after{
        width: 300px;
        z-index: 999;
        height: 100%;
+       display: none;
     }
 
     .sideNave .logo .close-btn{
@@ -216,4 +217,37 @@ nav{
 
 }
 
-@media screen and  (max-width:768px) {}
+@media screen and  (max-width:768px) {
+    .navbar{
+        width: 100%;
+        padding: 12px 1rem;
+    }
+    
+    nav{
+        gap: 2rem;
+    }
+    
+    nav ul{
+        gap: 1rem;
+    }
+
+
+}
+
+
+@media screen and  (max-width:768px) {
+    .navbar{
+        width: 100%;
+        padding: 12px 1rem;
+    }
+    
+    nav{
+        gap: 2rem;
+    }
+    
+    nav ul{
+        gap: 1rem;
+    }
+
+
+}

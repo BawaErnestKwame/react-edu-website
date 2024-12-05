@@ -164,9 +164,6 @@
 
 }
 
-
-
-
 .student-enrolled{
     position: absolute;
     width: 15%;
@@ -207,7 +204,6 @@
     font-size: .9rem;
     letter-spacing: .5px;
 }
-
 
 .who-we-are-container .online-courses{
     display: flex;
@@ -396,7 +392,6 @@
     color: rgb(255, 123, 0);
    
 }
-
 
 .profile-name{
     display: flex;
@@ -625,7 +620,6 @@ button{
     position: relative;
     color: #0b012c;
     margin-bottom: 50px;
-   
 }
 
 
@@ -647,10 +641,7 @@ margin-bottom: 10px;
     top: 5px;
     border-bottom-right-radius: 30px;
     border-top-left-radius: 30px;
-
 }
-
-
 
 .testimonial_section h1{
 color: #eef3ed;
@@ -665,10 +656,7 @@ margin-bottom: 20px;
     gap: 20px;
     width: max-content;
     animation: testimonialscroll 40s infinite linear;
-    
 }
-
-
 
 .slider{
     flex-wrap: nowrap;
@@ -680,7 +668,6 @@ margin-bottom: 20px;
 
 .slider:hover{
     animation-play-state: paused;
-
 }
 
 @keyframes testimonialscroll {
@@ -693,8 +680,6 @@ margin-bottom: 20px;
     }
     
 }
-
-
 
 .cardes .carde1{
     background-color: #fff;
@@ -751,7 +736,676 @@ margin-bottom: 20px;
 /* media queries */
 
 
-@media screen and (max-width:1200) {
+@media screen and (max-width:1200px) {
+    .header{
+        margin-top: 120px;
+        display: flex;
+        width: 100%;
+        padding: 0 3rem;
+        gap: 5%;
+    }
     
+    .header h1{
+        font-size: 2.2rem;
+    }
+
+    /* .description-activities */
+
+    .description-activities{
+        padding: 0 3rem;
+    }
+
+    /* who we are contaianer */
+
+.who-we-are-container{
+    padding: 0 3rem;
+    gap: 5%;
+}
+
+.student-enrolled{
+    width: 17%;
+    left: 290px;
+}
+
+
+ /* start-your-learning-journey */
+
+.start-your-learning-journey{
+    padding: 2rem 3rem;
+}
+
+.start-your-learning-journey .text-button p{
+    letter-spacing: .6px;
+}
+
+
+/* courses page asap */
+
+.our-popular-courses{
+   flex-wrap: wrap;
+    padding: 0 3rem;
+    margin-bottom: 10px;
+}
+
+.courses{
+    display: flex;
+    gap: 13px;
+}
+
+.courses .course1{
+    padding: 10px;
+   width: 255px;
+   height: 60vh;
+   margin-bottom: 20px;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.courses .course1{
+   height: 63vh;
+}
+
+
+
+/* frequently ask questions */
+
+.sugested-questions{
+    padding: 2rem 3rem;
+}
+
+.sugested-questions .question_answers{
+    width: 80%;
+}
+
+
+/* instructors */
+
+.instructors{
+    padding: 0 3rem;
+}
+
+.instructors h3{
+    margin-bottom: 7px;
+    margin-top: 30px;
+}
+
+
+.instructors-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.instructors-cards .card1{
+    width: 258px;
+    height: 40vh;
+    border-top-left-radius: 50px;
+    margin-bottom: 20px;
+   
+}
+
+.sugested-questions h3::before{
+    top: 8px;
+}
+
+}
+
+
+@media screen and (max-width:992px) {
+    .header{
+      flex-direction: column;
+        padding: 0 1.5rem;
+        gap: 10%;
+        height: auto;
+        align-items: center;
+    }
+    
+    .header h1{
+        font-size: 2.8rem;
+    }
+
+    .cards{
+        margin-bottom: 20px;
+    }
+
+    /* .description-activities */
+
+    .description-activities{
+        padding: 2rem 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: auto;
+        gap: 3rem;
+        font-size: 1.2rem;
+    }
+
+    .description-activities .description1{
+        gap: 1rem;
+        border-bottom: 1px solid #fff;
+        padding: 10px;
+    }
+
+    /* who we are contaianer */
+
+.who-we-are-container{
+    padding: 0 1.5rem;
+    gap: 3%;
+    letter-spacing: .5px;
+}
+
+.student-enrolled{
+    width: 22%;
+    left: 150px;
+}
+
+
+
+ /* start-your-learning-journey */
+
+ .start-your-learning-journey{
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+    height: auto;
+}
+
+.start-your-learning-journey .text-button p{
+    letter-spacing: .5px;
+}
+
+
+/* courses page asap */
+
+.our-popular-courses{
+    padding: 0 1.5rem;
+    margin-bottom: 90px;
+}
+
+.courses .course1{
+    padding: 10px;
+   width: 255px;
+   height: 32vh;
+   margin-bottom: 20px;
+}
+
+.courses .course1:nth-child(2){
+    display: none;
+}
+
+.courses{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.show-more-btn{
+    position: absolute;
+    top: 10px;
+}
+
+
+
+/* frequently ask questions */
+
+.sugested-questions{
+    padding: 2rem 3rem;
+}
+
+.sugested-questions .question_answers{
+    width: 80%;
+}
+
+
+/* instructors */
+
+.instructors{
+    padding: 0 1.5rem;
+    margin-bottom: 130px;
+}
+
+.instructors h3{
+    margin-bottom: 7px;
+    margin-top: 30px;
+}
+
+
+.instructors p{
+    width: 80%;
+    place-self: center;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.instructors-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.instructors-cards .card1:nth-child(4){
+    display: none;
+}
+
+.instructors-cards .card1{
+    width: 255px;
+    height: 40vh;
+    border-top-left-radius: 50px;
+    margin-bottom: 20px;
+   
+}
+
+.instructors-cards .card1 img{
+    width: 100%;
+
+}
+
+
+
+.instructor-btn{
+    position: absolute;
+   
+    bottom: -60px;
+    width: 210px;
+    left: -110px;
+}
+
+.sugested-questions h3::before{
+    top: 8px;
+}
+
+}
+
+@media screen and (max-width:768px) {
+    .header{
+        flex-direction: column;
+          padding: 0 1rem;
+        
+         
+      }
+      
+      .header h1{
+          font-size: 2.5rem;
+      }
+  
+      .cards{
+          margin-bottom: 20px;
+      }
+  
+      /* .description-activities */
+  
+      .description-activities{
+          padding: 2rem 1rem;
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          height: auto;
+          gap: 2rem;
+          font-size: 1.2rem;
+      }
+  
+      .description-activities .description1{
+          gap: 1rem;
+          border-bottom: 1px solid #fff;
+          padding: 10px;
+      }
+  
+      /* who we are contaianer */
+  
+  .who-we-are-container{
+      padding: 0 1rem;
+      gap: 3%;
+      letter-spacing: .5px;
+      flex-direction: column;
+      height: auto;
+  }
+
+  .who-we-are-container img{
+    width: 98%;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    box-shadow: var(--box-shadow);
+    transition: .5s;
+    margin-bottom: 10px;
     
 }
+
+  
+  .student-enrolled{
+      width: 30%;
+      left: 400px;
+      bottom: 600px;
+  }
+  
+  
+  
+   /* start-your-learning-journey */
+  
+   .start-your-learning-journey{
+      padding: 1rem 1rem;
+      gap: 2rem;
+      height: auto;
+      flex-direction: column;
+  }
+  
+  .start-your-learning-journey .text-button p{
+      letter-spacing: .5px;
+  }
+
+  .start-your-learning-journey img{
+    display: none;
+
+}
+
+.start-your-learning-journey .text-button{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.start-your-learning-journey .text-button h2{
+    font-size: 2.2rem;
+    line-height: 1.3;
+    letter-spacing: .5px;
+    margin-bottom: 10px;
+
+}
+
+.text-button .dicover-tbn{
+   align-items: center;
+   border: 2px solid #eef3ed;
+   margin-top: 20px;
+}
+
+
+  
+  /* courses page asap */
+  
+  .our-popular-courses{
+      padding: 0 1rem;
+      margin-bottom: 10px;
+  }
+  
+  .courses .course1{
+      padding: 10px;
+     width: 90%;
+     height: auto;
+     margin-bottom: 0px;
+  }
+  
+  .courses .course1:nth-child(2){
+    display: flex;
+}
+
+  .courses{
+      display: grid;
+      gap: 0rem;
+      grid-template-columns: repeat(2, 1fr);
+  }
+ 
+  
+  .show-more-btn{
+      position: absolute;
+      top: -250px;
+  }
+
+  /* frequently ask questions */
+
+.sugested-questions{
+    margin-top: 70px;
+    padding: 2rem 1rem;
+}
+
+.sugested-questions .question_answers{
+    width: 100%;
+}
+
+/* instructors */
+
+.instructors{
+    padding: 0 1rem;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  
+}
+
+.instructors h3{
+    margin-bottom: 7px;
+    margin-top: 30px;
+}
+
+.instructors-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.instructors-cards .card1{
+    width: 270px;
+    height: 40vh;
+    border-top-left-radius: 50px;
+    margin-bottom: 20px;
+    box-shadow: var(--box-shadow);
+}
+
+.instructors-cards .card1:nth-child(4){
+    display: flex;
+}
+
+.instructor-btn{
+    position: absolute;
+    bottom: -50px;
+    width: 210px;
+    left: -100px;
+}
+
+.sugested-questions h3::before{
+    top: 8px;
+}
+
+.instructors p{
+    width: 80%;
+    place-self: center;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+ 
+}
+
+@media screen and (max-width:480px){
+    .header{
+        flex-direction: column;
+          padding: 0 1rem;
+          background-color: #e91e62;
+        
+         
+      }
+      
+      .header h1{
+          font-size: 2.5rem;
+      }
+  
+      .cards{
+          margin-bottom: 20px;
+      }
+  
+      /* .description-activities */
+  
+      .description-activities{
+          padding: 2rem 1rem;
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          height: auto;
+          gap: 2rem;
+          font-size: 1.2rem;
+      }
+  
+      .description-activities .description1{
+          gap: 1rem;
+          border-bottom: 1px solid #fff;
+          padding: 10px;
+      }
+  
+      /* who we are contaianer */
+  
+  .who-we-are-container{
+      padding: 0 1rem;
+      gap: 3%;
+      letter-spacing: .5px;
+      flex-direction: column;
+      height: auto;
+  }
+
+  .who-we-are-container img{
+    width: 98%;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    box-shadow: var(--box-shadow);
+    transition: .5s;
+    margin-bottom: 10px;
+    
+}
+
+  
+  .student-enrolled{
+      width: 30%;
+      left: 400px;
+      bottom: 600px;
+  }
+  
+  
+  
+   /* start-your-learning-journey */
+  
+   .start-your-learning-journey{
+      padding: 1rem 1rem;
+      gap: 2rem;
+      height: auto;
+      flex-direction: column;
+  }
+  
+  .start-your-learning-journey .text-button p{
+      letter-spacing: .5px;
+  }
+
+  .start-your-learning-journey img{
+    display: none;
+
+}
+
+.start-your-learning-journey .text-button{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.start-your-learning-journey .text-button h2{
+    font-size: 2.2rem;
+    line-height: 1.3;
+    letter-spacing: .5px;
+    margin-bottom: 10px;
+
+}
+
+.text-button .dicover-tbn{
+   align-items: center;
+   border: 2px solid #eef3ed;
+   margin-top: 20px;
+}
+
+
+  
+  /* courses page asap */
+  
+  .our-popular-courses{
+      padding: 0 1rem;
+      margin-bottom: 10px;
+  }
+  
+  .courses .course1{
+      padding: 10px;
+     width: 90%;
+     height: auto;
+     margin-bottom: 0px;
+  }
+  
+  .courses{
+      display: grid;
+      gap: 0rem;
+      grid-template-columns: repeat(2, 1fr);
+  }
+ 
+  
+  .show-more-btn{
+      position: absolute;
+      top: -250px;
+  }
+
+  /* frequently ask questions */
+
+.sugested-questions{
+    margin-top: 70px;
+    padding: 2rem 1rem;
+}
+
+.sugested-questions .question_answers{
+    width: 100%;
+}
+
+/* instructors */
+
+.instructors{
+    padding: 0 1rem;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  
+}
+
+.instructors h3{
+    margin-bottom: 7px;
+    margin-top: 30px;
+}
+
+.instructors-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.instructors-cards .card1{
+    width: 270px;
+    height: 40vh;
+    border-top-left-radius: 50px;
+    margin-bottom: 20px;
+    box-shadow: var(--box-shadow);
+}
+
+.instructor-btn{
+    position: absolute;
+    bottom: -50px;
+    width: 210px;
+    left: -100px;
+}
+
+.sugested-questions h3::before{
+    top: 8px;
+}
+
+.instructors p{
+    width: 80%;
+    place-self: center;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+    
+}
+
+
+
