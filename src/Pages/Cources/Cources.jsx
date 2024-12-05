@@ -4,7 +4,7 @@ import StarRateIcon from '@mui/icons-material/StarRate';
 import StarHalfIcon from '@mui/icons-material/StarHalf';
 import htmls from '../../assets/html.jpeg'
 import { Link } from 'react-router-dom';
-import javascript from '../../assets/javascript.jpeg'
+import javascript from '../../assets/Javascript.jpeg'
 import css from '../../assets/css.jpeg'
 import marketing from '../../assets/marketing.jpeg'
 import adobe from '../../assets/adobe1.jpeg'
