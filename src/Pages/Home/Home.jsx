@@ -13,7 +13,7 @@ import book2 from '../../assets/book-2.jpg'
 import StarRateIcon from '@mui/icons-material/StarRate';
 import StarHalfIcon from '@mui/icons-material/StarHalf';
 import html from '../../assets/html.jpeg'
-import javascript from '../../assets/javascript.jpeg'
+import javascript from '../../assets/Javascript.jpeg'
 import css from '../../assets/css.jpeg'
 import marketing from '../../assets/marketing.jpeg'
 import adobe from '../../assets/adobe1.jpeg'
