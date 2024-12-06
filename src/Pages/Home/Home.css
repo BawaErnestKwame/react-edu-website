@@ -1419,26 +1419,24 @@ margin-bottom: 20px;
         gap: 1rem;
         width: 100%;
         padding: 0 0rem;
+        flex-direction: column;
+       font-size: 3rem;
+       align-items: center;
     }
     
     
     .cards .card1{
         height: 13rem;
-        width: 32%;
+        width: 70%;
         padding: 10px;
      
     }
     
     
-    .cards .card1 h1{
-        font-size: 1.5rem;
-        margin: 7px 0;
-    }
+  
     
     
-    .cards .card1 h2{
-        font-size: 1.1rem;
-    }
+  
   
       /* .description-activities */
   
@@ -1505,8 +1503,8 @@ margin-bottom: 20px;
   
   .courses .course1{
       padding: 10px;
-     width: 90%;
-     height: auto;
+     width: 100%;
+     height: 60vh;
      margin-bottom: 0px;
   }
 
@@ -1515,9 +1513,10 @@ margin-bottom: 20px;
 }
   
   .courses{
+    align-items: center;
       display: grid;
       gap: 0rem;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
   }
  
   
@@ -1559,12 +1558,13 @@ margin-bottom: 20px;
 
 .instructors-cards{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
+    place-items: center;
 }
 
 .instructors-cards .card1{
-    width: 100%;
+    width: 90%;
     height: auto;
     padding-bottom: 20px;
 }
