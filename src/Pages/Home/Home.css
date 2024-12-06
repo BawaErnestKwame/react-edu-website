@@ -937,6 +937,10 @@ margin-bottom: 20px;
     display: none;
 }
 
+.courses .course1:hover{
+    transform:none;
+}
+
 .courses{
     display: grid;
     gap: 1rem;
@@ -1139,6 +1143,10 @@ margin-bottom: 20px;
      height: auto;
      margin-bottom: 0px;
   }
+
+  .courses .course1:hover{
+    transform:none;
+}
   
   .courses .course1:nth-child(2){
     display: flex;
@@ -1277,6 +1285,10 @@ margin-bottom: 20px;
    width: 90%;
    height: auto;
    margin-bottom: 0px;
+}
+
+.courses .course1:hover{
+    transform:none;
 }
 
 .our-popular-courses .title p{
@@ -1508,6 +1520,12 @@ margin-bottom: 20px;
      margin-bottom: 0px;
   }
 
+  .courses .course1:hover{
+    transform:none;
+}
+
+
+
   .our-popular-courses .title p{
     width: 100%;
 }
@@ -1733,6 +1751,10 @@ margin-bottom: 20px;
       gap: 0rem;
       grid-template-columns: repeat(1, 1fr);
   }
+
+  .courses .course1:hover{
+    transform:none;
+}
  
   
   .show-more-btn{
