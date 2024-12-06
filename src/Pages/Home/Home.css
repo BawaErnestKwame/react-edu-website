@@ -373,7 +373,7 @@
     width: 60%;
     height: 170px;
     place-self: center;
-    object-fit: cover;
+    object-fit: contain;
     margin-bottom: 10px;
 }
 
