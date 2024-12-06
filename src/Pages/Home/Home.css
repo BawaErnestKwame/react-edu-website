@@ -1144,6 +1144,10 @@ margin-bottom: 20px;
      margin-bottom: 0px;
   }
 
+  .courses .course1 img{
+    object-fit: contain;
+  }
+
   .courses .course1:hover{
     transform:none;
 }
@@ -1295,6 +1299,11 @@ margin-bottom: 20px;
   width: 100%;
 }
 
+.courses .course1 img{
+    object-fit: contain;
+  }
+
+
 .courses{
     display: grid;
     gap: 0rem;
@@ -1439,7 +1448,7 @@ margin-bottom: 20px;
     
     .cards .card1{
         height: 13rem;
-        width: 70%;
+        width: 80%;
         padding: 10px;
      
     }
@@ -1519,6 +1528,11 @@ margin-bottom: 20px;
      height: 60vh;
      margin-bottom: 0px;
   }
+
+  .courses .course1 img{
+    object-fit: contain;
+  }
+
 
   .courses .course1:hover{
     transform:none;
@@ -1736,6 +1750,11 @@ margin-bottom: 20px;
      height: 60vh;
      margin-bottom: 0px;
   }
+
+  .courses .course1 img{
+    object-fit: contain;
+  }
+
 
   .our-popular-courses .title h1 {
     font-size: 1.7rem;
