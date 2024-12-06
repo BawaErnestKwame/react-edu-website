@@ -1563,11 +1563,7 @@ margin-bottom: 20px;
     place-items: center;
 }
 
-.instructors-cards .card1{
-    width: 90%;
-    height: auto;
-    padding-bottom: 20px;
-}
+.instructors-cards .card1
 
 .instructor-btn{
     position: absolute;
@@ -1579,6 +1575,243 @@ margin-bottom: 20px;
 .sugested-questions h3::before{
     top: 8px;
 }
+
+
+    
+}
+
+
+@media screen and (max-width:400px) {
+
+    .header{
+        flex-direction: column;
+          padding: 0 1rem;
+          width: 100%;
+          
+       
+      }
+
+      .text-container{
+        width: 100%;
+      }
+      
+      .header h1{
+          font-size: 1.2rem;
+      }
+  
+      .cards{
+          margin-bottom: 20px;
+      }
+
+      .header img{
+        display: none;
+      }
+
+
+
+
+      .cards{
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+        padding: 0 0rem;
+        flex-direction: column;
+       font-size: 3rem;
+       align-items: center;
+    }
+    
+    
+    .cards .card1{
+        height: 13rem;
+        width: 70%;
+        padding: 10px;
+     
+    }
+    
+    
+  
+    
+    
+  
+  
+      /* .description-activities */
+  
+      .description-activities{
+        width: 100%;
+          grid-template-columns: repeat(1, 1fr);
+
+      }
+  
+ 
+    
+  
+/* who we are contaianer */
+
+.who-we-are-container{
+    width: 100%;
+    padding: 0 1rem;
+  
+    
+}
+
+.who-we-are-container img{
+  display: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.who-we-are-container .texts p{
+    margin-top: 8px;
+    font-size: 1rem;
+}
+
+
+
+.who-we-are-container .online-courses .icon{
+    width: 130px;
+    height: 50px;
+    display: none;
+}
+
+   /* start-your-learning-journey */
+  
+   .start-your-learning-journey{
+   width: 100%;
+  }
+  
+  .start-your-learning-journey .text-button p{
+      letter-spacing: .5px;
+      font-size: 1rem;
+
+  }
+
+   
+  .start-your-learning-journey .text-button h2{
+    font-size: 1.5rem;
+  }
+
+  .start-your-learning-journey img{
+    display: none;
+
+}
+
+  
+  /* courses page asap */
+  
+  .our-popular-courses{
+      padding: 0 1rem;
+    
+  }
+  
+  .courses .course1{
+      padding: 10px;
+     width: 100%;
+     height: 60vh;
+     margin-bottom: 0px;
+  }
+
+  .our-popular-courses .title h1 {
+    font-size: 1.7rem;
+  }
+
+  .our-popular-courses .title p{
+    width: 100%;
+}
+  
+  .courses{
+    align-items: center;
+      display: grid;
+      gap: 0rem;
+      grid-template-columns: repeat(1, 1fr);
+  }
+ 
+  
+  .show-more-btn{
+      position: absolute;
+      top: 20px;
+  }
+
+  /* frequently ask questions */
+
+.sugested-questions{
+    margin-top: 70px;
+    padding: 2rem 1rem;
+}
+
+.sugested-questions .question_answers{
+    width: 100%;
+}
+
+/* instructors */
+
+.instructors{
+    padding: 0 1rem;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  
+}
+
+.instructors p{
+    width: 100%;
+
+}
+
+
+.instructors h3{
+    margin-bottom: 7px;
+    margin-top: 30px;
+}
+
+.instructors h1{
+    font-size: 1.7rem;
+}
+
+.instructors-cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    place-items: center;
+}
+
+.instructors-cards .card1{
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.instructors-cards .card1 img{
+    border-radius: 10px;
+}
+
+
+
+
+.testimonial_section {
+    width: 100%;
+    padding: 0 1rem;
+    margin-top: 90px;
+}
+.testimonial_section h1{
+    margin: 0px 0;
+    font-size: 1.7rem;
+     
+}
+
+.testimonial_section h3{
+    margin-top: 30px;
+}
+
+
 
 
     

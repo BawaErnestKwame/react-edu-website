@@ -37,7 +37,7 @@ const Footer = () => {
          <Link to='/Home'><li>Home</li></Link>
          <Link to='/About'><li>About</li></Link>
          <Link to='/Courses'><li>Courses</li></Link>
-         <Link to='/Contact'><li>Contact</li></Link>
+         <Link to='/CONTACT'><li>Contact</li></Link>
         </div>
             <div className="call">
             <CallIcon/>

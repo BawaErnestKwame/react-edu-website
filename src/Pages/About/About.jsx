@@ -20,8 +20,7 @@ const About = () => {
     <div>
       <div className="about_us_container">
       <div className="home_about_us">
-        <Link to='/HOME'>  <h2>Home </h2></Link>
-    
+        <Link to='/Home'><h2>Home </h2></Link>
         <h2>/ About Us</h2>
       </div>
     </div> 
@@ -297,7 +296,7 @@ const About = () => {
   <div className="ready_to_kick_start_your_career">
     <div className="items">
       <h3>Ready to Kick Start Your Career?</h3>
-     <Link to='/Login'><button>Try For Free</button></Link>
+     <Link to='/Login'><button className='try-free'>Try For Free</button></Link>
     </div>
   </div>
     </div>

@@ -216,6 +216,65 @@ color: #e91e62;
         height: auto;
     }
 
+    .foooter-container .footer-text{
+        flex-wrap: wrap;
+        gap: .5%;
+    }
+
+
+ }
+
+
+ @media screen and (max-width:400px){
+    .foooter-container{
+        padding: 1rem 1rem;
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .foooter-container .footer-text{
+        flex-wrap: wrap;
+        gap: 0%;
+    }
+
+    .flex1 p{
+        font-size: 15px;
+        letter-spacing: .5px;
+        width: 100%;
+    }
+    
+    .flex2 .links{
+        margin-top: 8px;
+        gap: 7px;
+    }
+    
+    .flex3 .links{
+        margin-top: 8px;
+        gap: 7px;
+    }
+
+    .logo-footer{
+        color: #eef3ed;
+        margin-bottom: 3px;
+    }
+    
+    .mail,
+     .call
+      ,.location{
+        display: flex;
+        margin-bottom: 10px;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .copyright{
+        padding: 1rem 1rem;
+        width: 100%;
+        height: 5vh;
+     }
+    
+
  }
 
 

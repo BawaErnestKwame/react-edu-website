@@ -159,6 +159,7 @@
 
 .popular-instructors p{
     text-align: center;
+    width: 50%;
     margin-bottom: 30px;
     font-size: 15px;
     color: var(--text-color);
@@ -313,7 +314,166 @@
 }
 
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:480px) {
+    .about_us_container{
+        width: 100%;
+        height: 30vh;
+    }
+    
+    .home_about_us a{
+        text-decoration: none;
+        color: rgb(224, 188, 25);
+    }
+  
+    /* are_becode_team */
+    
+    .are_becode_team{
+        padding: 0 1rem;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .are_becode_team .text_user1{
+        flex-direction: column;
+        gap: 0rem;
+        top: 10px;
+        height: 100%;
+        width: 100%;
+    }
     
     
+    .are_becode_team .text_left1 h1{
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+    
+    .are_becode_team .text_left1 p{
+        font-size: 1.1rem;
+        letter-spacing: .1px;
+        font-weight: 500;
+    }
+    
+    .are_becode_team .text_left1 h2{
+        color: rgb(255, 0, 85);
+    }
+    .text_user1 .image_right img{
+       display: none;
+    }
+
+    /* why_chose_use */
+
+.why_chose_use{
+    padding: 4rem 1rem;
+    gap: 0rem;
+}
+
+
+.why_chose_use .why_choose_us_text p{
+    font-size: 1rem;
+  
+}
+
+.why_chose_use .why_choose_us_image img{
+    display: none;
+}
+
+.why_chose_use .infor{
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.why_chose_use .infor h3{
+    font-size: 1.2rem;
+    color: #ff7b00;
+    margin-bottom: 10px;
+}
+
+.why_chose_use .infor .left .first_infor{
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+.why_chose_use .infor .right .first_infor{
+    display: flex;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+/* our teams */
+.popular-instructors{
+    padding: 1rem 1rem;
+
+}
+
+.popular-instructors p{
+    font-size: 1rem;
+    align-self: center;
+}
+
+.instructorsrr{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 1rem;
+  
+}
+
+.instructorsrr .instructorr1{
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0px 10px 20px rgba(9, 136, 187, 0.644);
+
+}
+
+.instructorsrr .instructorr1 img{
+    width: 100%;
+    height:250px ;
+}
+
+
+
+/* ready_to_kick_start_your_career */
+
+.ready_to_kick_start_your_career{
+    width: 100%;
+    height: 25vh;
+    padding: 0 1rem;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+.ready_to_kick_start_your_career h3{
+    margin-bottom: 20px;
+
+    font-size: 1.4rem;
+}
+
+.ready_to_kick_start_your_career .try-free{
+    background-color: #17025a;
+   
+    font-size: 15px;
+    border: 2px solid white;
+    align-self: center;
+    transition: .5s;
+
+}
+
+.ready_to_kick_start_your_career .items::before{
+    content: "";
+    height: 70px;
+    width: 70px;
+    background-color: #0b0423;
+    border-radius: 35px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+
+}
+
+.ready_to_kick_start_your_career .btn:hover{
+    background-color: #0b0423;
+    border-bottom: 5px solid #eef3ed;
+}
+
 }
