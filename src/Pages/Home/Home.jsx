@@ -37,7 +37,7 @@ import CountUp from 'react-countup';
 
 const Home = () => {
   return (
-    <div>
+    <>
 
       <div className="header">
         <div className="text-container">
@@ -506,7 +506,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
 </div>
 </div>
 
-    </div>
+    </>
   )
 }
 
