@@ -116,6 +116,112 @@
   }
 
 
+  @media screen and (max-width:992px) {
+.login-container{
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.containerss{
+  margin-top: 110px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+}
+
+.login-form-container h1{
+  font-size: 1.4rem;
+  color: rgb(0, 0, 87);
+}
+
+.dont-hv-account{
+  margin-bottom: 10px;
+}
+
+    
+  }
+
+
+  @media screen and (max-width:768px) {
+.login-container{
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.containerss{
+  margin-top: 110px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+}
+.image-cont img {
+  display: none;
+
+}
+
+
+.containerss .image-cont{
+  flex: 0;
+}
+
+
+.login-form-container h1{
+  font-size: 1.8rem;
+  color: rgb(0, 0, 87);
+}
+
+.dont-hv-account{
+  margin-bottom: 10px;
+}
+
+
+
+
+    
+  }
+  @media screen and (max-width:600px) {
+.login-container{
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+}
+
+.containerss{
+  margin-top: 90px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+}
+.image-cont img {
+  display: none;
+
+}
+
+
+.containerss .image-cont{
+  flex: 0;
+}
+
+
+.login-form-container h1{
+  font-size: 1.8rem;
+  color: rgb(0, 0, 87);
+}
+
+.dont-hv-account{
+  margin-bottom: 10px;
+}
+
+
+
+
+    
+  }
+
+
+
  
   
 
