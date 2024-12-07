@@ -999,8 +999,8 @@ margin-bottom: 20px;
 }
 
 .instructors-cards .card1{
-    width: 255px;
-    height: 40vh;
+    width: 100%;
+    height: auto;
     border-top-left-radius: 50px;
     margin-bottom: 20px;
    
@@ -1575,7 +1575,12 @@ margin-bottom: 20px;
 
 .instructors p{
     width: 100%;
+    display: flex;
 
+}
+
+.instructors h1{
+    font-size: 1.5rem;
 }
 
 
@@ -1602,6 +1607,14 @@ margin-bottom: 20px;
 
 .sugested-questions h3::before{
     top: 8px;
+}
+
+
+.testimonial_section h1{
+    margin: 0px 0;
+    font-size: 1.5rem;
+    text-align: center;
+     
 }
 
 

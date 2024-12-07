@@ -319,20 +319,10 @@
 @media screen and (max-width:992px){
     .about_us_container{
         width: 100%;
-        height: 30vh;
+        height: 40vh;
       
     }
     
-  
-    
-    .home_about_us a{
-        text-decoration: none;
-        color: white;
-    }
-    .home_about_us a:hover{
-       text-decoration: underline;
-       color: #fc5304;
-    } 
     
     /* are_becode_team */
     
@@ -350,7 +340,7 @@
         gap: 2rem;
         position: relative;
         top: 10px;
-        height: 70vh;
+        height: 100%;
         width: 100%;
     }
     
@@ -365,7 +355,7 @@
     
     .text_user1 .image_right img{
         object-fit: contain;
-        width: 400px;
+        width: 100%;
         height: 100%;
     }
     
@@ -404,17 +394,10 @@
      
     }
     
-    .popular-instructors h1{
-        color: #e91e63;
-        margin-bottom: 15px;
-    }
-    
-    .popular-instructors p{
-        width: 80%;
-     
-    }
-    
+
     .instructorsrr{
+        width: 100%;
+        padding: 0 1.5rem;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         row-gap: 1rem;
@@ -424,21 +407,12 @@
     
     .instructorsrr .instructorr1{
         background-color: #fff;
-        width: 280px;
+        width: 100%;
         padding: 10px;
-        text-align: center;
-        border-radius: 10px;
-    
-        transition: .5s;
-        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
     
     }
     
-    .instructorsrr .instructorr1:hover{
-        border: 2px solid #e91e63;
-        border-bottom: 6px solid #e91e63;
-        
-    }
+  
     
     .instructorsrr .instructorr1:hover .socials{
         display: flex;
