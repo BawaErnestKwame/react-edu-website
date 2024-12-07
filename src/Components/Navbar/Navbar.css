@@ -1,4 +1,4 @@
-.navbar{
+.navbar {
     width: 100%;
     height: 70px;
     background-color: var(--navbar);
@@ -6,64 +6,52 @@
     justify-content: space-between;
     padding: 12px 6rem;
     align-items: center;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, .3);
-    position: relative;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
     z-index: 999;
 }
 
-nav{
+nav {
     display: flex;
     gap: 7rem;
     align-items: center;
-    position: relative;
 }
 
-nav ul{
+nav ul {
     display: flex;
     gap: 2rem;
-    position: relative;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     font-size: 1rem;
     cursor: pointer;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
 }
 
-
-.menu-btn,
-.close-btn{
-    font-size: 4rem;
-    background-color: transparent;
-  font-weight: bolder;
-  display: none;
-
-  
+.menu-btn {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
 }
 
-.contact{
+.contact {
     display: flex;
-    position: relative;
     background-color: #fff;
     padding: 10px;
     width: 45px;
     height: 45px;
-    border-radius: 22.5px;
-
+    border-radius: 50%;
 }
 
-.contact .contact-icon{
-  color: #5a5a5a;
-    font-size: .8rem;
-
+.contact .contact-icon {
+    color: #5a5a5a;
+    font-size: 0.8rem;
 }
 
-.contact p{
+.contact p {
     position: absolute;
     top: 4rem;
     right: 3rem;
@@ -72,16 +60,15 @@ nav ul li{
     padding: 5px 10px;
     border-radius: 10px;
     opacity: 0;
-    transition: var(--transitions);
-  
+    transition: 0.3s ease;
 }
 
-.contact:hover.contact p{
+.contact:hover p {
     opacity: 1;
 }
 
-.btn{
-    margin: 10px;
+.btn {
+    margin: 7px;
     border: none;
     outline: none;
     padding: 8px 20px;
@@ -89,191 +76,42 @@ nav ul li{
     cursor: pointer;
     color: #fff;
     font-size: 1rem;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
     border-radius: 10px;
 }
 
-span{
-    color: black;
-    margin-left: 5px;
-}
-
-a{
-    color: #fff;
-    text-decoration: none;
-    font-size: 1rem;
-    position: relative;
- 
-}
-
-a.active::after{
-    content: '';
-    width: 100%;
-    height: 4px;
-    border-radius: 3px;
-    background-color: #fff;
-    position: absolute;
-    top: 48px;
-    right: 1px;
-
-}
-
-.sideNave{
-    display: none;
-}
-
-
-@media screen and (max-width:1200px) {
-    .navbar{
-        width: 100%;
-        padding: 12px 3rem;
-    }
-    
-    nav{
-        gap: 5rem;
-    }
-    
-    nav ul{
-        gap: 1.5rem;
-    }
-    
-}
-
-
-@media screen and  (max-width:992px) {
-    .navbar{
-        width: 100%;
-        padding: 12px 1.5rem;
-    }
-    
-    nav{
-        gap: 5rem;
-    }
-    
-   .navbar nav ul{
-       display: none;
-    }
-
-    .sideNave{
-       
-        display: flex;
-   
-        flex-direction: column;
-        position: fixed;
-        right: 0;
-        top:0;
-        position: absolute;
-        background-color: #dd0495;
-       width: 300px;
-       z-index: 999;
-       height: 100%;
-       display: none;
-    }
-
-    .sideNave .logo .close-btn{
-        color: rgb(255, 255, 255);
+@media screen and (max-width: 992px) {
+    .menu-btn {
         display: block;
-     
-        
+        position: absolute;
+        top: 20px;
+        right: 20px;
     }
 
-    .sideNave .logo{
-        display: flex;
-      
-        justify-content: space-between; 
-        padding: 20px;
-        margin-bottom: 20px;
+    nav ul {
+        display: none;
+        position: fixed;
+        top: 70px;
+        right: 0;
+        background-color: var(--navbar);
+        width: 30%;
+        height: calc(100vh - 70px);
+        flex-direction: column;
         align-items: center;
+        padding-top: 20px;
     }
-    
-    .sideNave nav{
+
+    nav ul.open {
         display: flex;
-        flex-direction: column;
     }
 
-    
-
-    .sideNave nav ul{
-        flex-direction: column;
-        gap: 3rem;
+    nav ul li {
+        margin: 1rem 0;
     }
-
-    .menu-btn
-{
-   
-  display: block;
-  align-items: center;
-  display: flex;
-  
 }
 
-nav{
-    gap: 8rem;
-}
-
-.btn{
-    margin: 20px;
-}
-
-}
-
-@media screen and  (max-width:768px) {
-    .navbar{
-        width: 100%;
-        padding: 12px 1rem;
-    }
-    
-    nav{
-        gap: 2rem;
-    }
-    
-    nav ul{
-        gap: 1rem;
-    }
-
-
-}
-
-
-@media screen and  (max-width:768px) {
-    .navbar{
-        width: 100%;
-        padding: 12px 1rem;
-    }
-    
-    nav{
-        gap: 2rem;
-    }
-    
-    nav ul{
-        gap: 1rem;
-    }
-
-
-}
-
-
-
-
-
-@media screen and (max-width:600px) {
-    .loginsignups{
+@media screen and (max-width: 600px) {
+    .loginsignups, .contact {
         display: none;
     }
-
-    .contact{
-        display: none;
-    }
-    
-}
-
-@media screen and (max-width:480px) {
-    .loginsignups{
-        display: none;
-    }
-
-    .contact{
-        display: none;
-    }
-    
 }
