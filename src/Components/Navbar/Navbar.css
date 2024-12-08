@@ -11,17 +11,21 @@
     top: 0;
     left: 0;
     z-index: 999;
+    overflow: hidden; 
 }
 
 nav {
     display: flex;
     gap: 7rem;
     align-items: center;
+    z-index: 1;
 }
 
 nav ul {
     display: flex;
     gap: 2rem;
+    position: relative;
+    z-index: 1;
 }
 
 nav ul li {
@@ -29,6 +33,40 @@ nav ul li {
     font-size: 1rem;
     cursor: pointer;
     letter-spacing: 0.5px;
+    z-index: 1;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+span{
+    color: black;
+}
+
+
+
+ a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+a.active::before{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    bottom: -46px;
+    transform: rotate(45deg);
+    z-index: -1;
+
+
 }
 
 .menu-btn {
@@ -106,7 +144,16 @@ nav ul li {
     }
 
     nav ul li {
-        margin: 1rem 0;
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+        transition: ease .5s;
+    }
+
+    nav ul li:hover {
+        background-color: rgb(2, 2, 85);
+        border-radius: 10px;
+        width: 100%;
     }
 }
 
