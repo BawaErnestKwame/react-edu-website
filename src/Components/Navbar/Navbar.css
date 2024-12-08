@@ -26,9 +26,11 @@ nav ul {
     gap: 2rem;
     position: relative;
     z-index: 1;
+    align-items: center;
 }
 
 nav ul li {
+    align-items: center;
     list-style: none;
     font-size: 1rem;
     cursor: pointer;
@@ -41,6 +43,7 @@ nav ul li {
     font-size: 1rem;
     cursor: pointer;
     letter-spacing: 0.5px;
+    align-items: center;
 }
 
 span{
@@ -127,6 +130,7 @@ a.active::before{
         position: absolute;
         top: 20px;
         right: 20px;
+        margin-left: 2rem;
     }
 
     nav ul {
@@ -151,6 +155,8 @@ a.active::before{
         text-align: center;
         padding: 1rem;
         transition: ease .5s;
+        border-bottom: 2px solid #fff;
+        
     }
 
     nav ul li:hover {
@@ -178,18 +184,16 @@ a.active::before{
     }
 
     .login-btn{
-
-        display: none;
-        position: relative;
-        left: -3rem;
+        display: flex;
         margin: 0;
         padding: 0;
-        margin-left: 8rem;
+        margin-right: 4rem;
         border-radius: 0%;
         background: transparent;
         border: 2px solid rgb(1, 1, 102);
         padding: 5px 10px;
         transition: .5s;
+        z-index: -1;
     }
 
     .login-btn:hover{

@@ -41,8 +41,19 @@ const Home = () => {
     <>
 
 <div className="header">
-  <div
-    className="text-container">
+  <motion.div className="text-container"
+   initial={{
+    x: -400,
+  }}
+  animate={{
+    x: 0,
+  }}
+  exit={{ x: "400" }}
+  transition={{
+    duration: 0.5,
+  }}
+  
+  >
     <h1>
       GET STARTED ON YOUR LEARNING AND
       <span className="enrich-your-dream"> ENRICH YOUR DREAM</span>
@@ -82,7 +93,7 @@ const Home = () => {
         <h2>DEPARTMENTS</h2>
       </div>
     </div>
-  </div>
+  </motion.div>
 
   <img src={header} alt="" />
 </div>

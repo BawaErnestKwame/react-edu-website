@@ -41,12 +41,14 @@ const Navbar = () => {
             <li>
               <NavLink to="/CONTACT" onClick={closeMenu}>CONTACT</NavLink>
             </li>
-          </ul>
-
-          <div className="loginsignups">
+            <div className="loginsignups">
             <Link to="/Login"><button className='login-btn btn'>Login</button></Link>
             <Link to="/Signup"><button className='signup-btn btn'>Sign Up</button></Link>
           </div>
+            
+          </ul>
+
+        
 
           <div className="contact">
             <div className="contact-icon">
