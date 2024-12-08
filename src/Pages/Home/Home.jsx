@@ -29,6 +29,7 @@ import SportsKabaddiIcon from '@mui/icons-material/SportsKabaddi';
 import Footer from '../../Components/Footer/Footer';
 import { Link } from 'react-router-dom';
 import CountUp from 'react-countup';
+import {motion} from "framer-motion"
 
 
 
@@ -40,7 +41,20 @@ const Home = () => {
     <>
 
       <div className="header">
-        <div className="text-container">
+        <motion.div className="text-container"
+        initial={{
+          x:-400,
+
+        }}
+        animate={{
+          x:0,
+        }}
+        exit={{x:"400"}}
+        transition={{
+          duration:.5
+        }}
+
+        >
           <h1>GET STARTED ON YOUR LEARNING AND
         <span className='enrich-your-dream'>  ENRICH YOUR DREAM</span></h1>
 
@@ -50,7 +64,11 @@ const Home = () => {
          <Link to='/COURSES'> <button className='find-course'>Find Courses  <ArrowForwardIcon/></button></Link>
 
 
-          <div className="cards">
+          <motion.div className="cards"
+          transition={{
+            duration:4
+          }}
+          >
             <div className="card1">
            <EmojiPeopleIcon sx={{ fontSize: 60 }}/>
               <h1><CountUp start={50} end={400} duration={4}/> +</h1>
@@ -66,10 +84,12 @@ const Home = () => {
               <h1><CountUp start={10} end={150} duration={4}/> +</h1>
               <h2>DEPARTMENTS</h2>
             </div>
-          </div>
+          </motion.div>
 
-        </div>
-        <img src={header} alt="" />
+        </motion.div>
+      
+        <img src={header} alt=""/>
+     
       </div>
       
 
@@ -179,18 +199,27 @@ Rerum magni dolorem nulla ullam dolores exercitationem
 
       {/* start your learning journey with us now */}
 
-      <div className="start-your-learning-journey">
+      <motion.div className="start-your-learning-journey"
+      initial={{opacity:0}}
+      // animate={{opacity:1}}
+      transition={{duration:3}}
+      whileInView={{opacity:1,
+        scale:1.1,
+        once:true
+      }}
+
+      >
         <div className="text-button">
           <h2>Start Your Leraning Journey With Us Today! Enroll Now in Our Online Course.</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias repudiandae similique
-             eos voluptatum consequuntur, officia nam veritatis natus incidunt 
+             eos voluptatum consequuntur, offitrcia nam veritatis natus incidunt 
             eveniet maxime corrupti neque deleniti sunt harum earum sint ratione aliquam?</p>
 
             <button className='dicover-tbn'>Descover More  <ArrowForwardIcon/></button>
         </div>
 
         <img src={book2} alt="" />
-      </div>
+      </motion.div>
 
 
 

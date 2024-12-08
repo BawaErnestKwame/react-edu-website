@@ -65,8 +65,6 @@ a.active::before{
     bottom: -46px;
     transform: rotate(45deg);
     z-index: -1;
-
-
 }
 
 .menu-btn {
@@ -119,6 +117,11 @@ a.active::before{
 }
 
 @media screen and (max-width: 992px) {
+    .navbar {
+        padding: 12px 1rem;
+       
+       
+    }
     .menu-btn {
         display: block;
         position: absolute;
@@ -132,7 +135,7 @@ a.active::before{
         top: 70px;
         right: 0;
         background-color: var(--navbar);
-        width: 30%;
+        width: 60%;
         height: calc(100vh - 70px);
         flex-direction: column;
         align-items: center;
@@ -155,10 +158,45 @@ a.active::before{
         border-radius: 10px;
         width: 100%;
     }
+
+    a.active::before{
+        content: none;
+    }
+
+    .login-btn{
+        display: flex;
+    }
+
+    .signup-btn{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    .loginsignups, .contact {
+    .contact {
+        display: none;
+    }
+
+    .login-btn{
+        display: flex;
+        position: relative;
+        left: -3rem;
+        margin-left: 8rem;
+        border-radius: 0%;
+        background: transparent;
+        border: 2px solid rgb(1, 1, 102);
+        padding: 5px 10px;
+        transition: .5s;
+    }
+
+    .login-btn:hover{
+        border: 2px solid rgb(255, 255, 255);
+        background-color:rgb(1, 1, 102) ;
+    }
+
+    
+
+    .signup-btn{
         display: none;
     }
 }
