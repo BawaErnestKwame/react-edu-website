@@ -40,57 +40,53 @@ const Home = () => {
   return (
     <>
 
-      <div className="header">
-        <motion.div className="text-container"
-        initial={{
-          x:-400,
+<div className="header">
+  <div
+    className="text-container">
+    <h1>
+      GET STARTED ON YOUR LEARNING AND
+      <span className="enrich-your-dream"> ENRICH YOUR DREAM</span>
+    </h1>
 
-        }}
-        animate={{
-          x:0,
-        }}
-        exit={{x:"400"}}
-        transition={{
-          duration:.5
-        }}
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus suscipit quod, ipsa autem a nostrum molestias quas facere minus
+      assumenda, officiis facilis quam sequi, est labore eum rem ratione! Impedit!
+    </p>
 
-        >
-          <h1>GET STARTED ON YOUR LEARNING AND
-        <span className='enrich-your-dream'>  ENRICH YOUR DREAM</span></h1>
+    <Link to="/COURSES">
+      <button className="find-course">
+        Find Courses <ArrowForwardIcon />
+      </button>
+    </Link>
 
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus suscipit quod, ipsa autem a nostrum molestias quas facere minus
-          assumenda, officiis facilis quam sequi, est labore eum rem ratione! Impedit!</p>
-
-         <Link to='/COURSES'> <button className='find-course'>Find Courses  <ArrowForwardIcon/></button></Link>
-
-
-          <motion.div className="cards"
-          transition={{
-            duration:4
-          }}
-          >
-            <div className="card1">
-           <EmojiPeopleIcon sx={{ fontSize: 60 }}/>
-              <h1><CountUp start={50} end={400} duration={4}/> +</h1>
-              <h2>INSTRUCTORS</h2>
-            </div>
-            <div className="card1">
-            <HailIcon  sx={{ fontSize: 60 }}/>
-              <h1><CountUp start={200} end={25000} duration={4}/>+</h1>
-              <h2>  STUDENTS</h2>
-            </div>
-            <div className="card1">
-           <AirlineSeatReclineNormalIcon  sx={{ fontSize: 60 }}/>
-              <h1><CountUp start={10} end={150} duration={4}/> +</h1>
-              <h2>DEPARTMENTS</h2>
-            </div>
-          </motion.div>
-
-        </motion.div>
-      
-        <img src={header} alt=""/>
-     
+    <div className="cards">
+      <div className="card1">
+        <EmojiPeopleIcon sx={{ fontSize: 60 }} />
+        <h1>
+          <CountUp start={50} end={400} duration={4} /> +
+        </h1>
+        <h2>INSTRUCTORS</h2>
       </div>
+      <div className="card1">
+        <HailIcon sx={{ fontSize: 60 }} />
+        <h1>
+          <CountUp start={200} end={25000} duration={4} /> +
+        </h1>
+        <h2>STUDENTS</h2>
+      </div>
+      <div className="card1">
+        <AirlineSeatReclineNormalIcon sx={{ fontSize: 60 }} />
+        <h1>
+          <CountUp start={10} end={150} duration={4} /> +
+        </h1>
+        <h2>DEPARTMENTS</h2>
+      </div>
+    </div>
+  </div>
+
+  <img src={header} alt="" />
+</div>
+
       
 
       <div className="description-activities">
@@ -199,14 +195,8 @@ Rerum magni dolorem nulla ullam dolores exercitationem
 
       {/* start your learning journey with us now */}
 
-      <motion.div className="start-your-learning-journey"
-      initial={{opacity:0}}
-      // animate={{opacity:1}}
-      transition={{duration:3}}
-      whileInView={{opacity:1,
-        scale:1.1,
-        once:true
-      }}
+      <div className="start-your-learning-journey"
+   
 
       >
         <div className="text-button">
@@ -219,7 +209,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
         </div>
 
         <img src={book2} alt="" />
-      </motion.div>
+      </div>
 
 
 
@@ -423,6 +413,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
        <Link to='/ABOUT'> <button className="instructor-btn">Find More Instructors<ArrowForwardIcon/></button></Link>
 
     </div>
+
 
 
 
