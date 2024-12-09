@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Home.css'
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
@@ -37,6 +37,8 @@ import {motion} from "framer-motion"
 
 
 const Home = () => {
+
+  const [open , setOpen] = useState(false)
   return (
     <>
 
@@ -250,7 +252,8 @@ Rerum magni dolorem nulla ullam dolores exercitationem
             <img src={student} alt="profile" className='profile' />
               <h4>BAWA ERNEST KWAME</h4>
             </div>
-            <button>Get Started Now!</button>
+            <Link to='/Html'><button>Get Started Now!</button></Link>
+       
           </div>
           <div className="course1">
             <img src={css} alt="" className='subject' />
