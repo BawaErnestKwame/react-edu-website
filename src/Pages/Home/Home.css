@@ -4,6 +4,7 @@
     width: 100%;
     padding: var( --man-pages-padding);
     gap: 5%;
+    position: relative;
 }
 
 
@@ -514,6 +515,10 @@ button{
 
 .answers p{
     line-height: 1.1;
+}
+
+.answers .open{
+    display: block;
 }
 
 

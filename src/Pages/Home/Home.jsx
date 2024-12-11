@@ -38,6 +38,8 @@ import {motion} from "framer-motion"
 
 const Home = () => {
 
+  const [isShowing, setIshowing] = useState(false)
+
   const [open , setOpen] = useState(false)
   return (
     <>
@@ -331,7 +333,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
         </div>
     </div>
     <div className="question_answers">
-        <div className="question">
+        <div className={`"question" ${isShowing ? "" : setIshowing}`} >
             <p><AddIcon/>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             <ArrowDownwardIcon/>
 
@@ -383,7 +385,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
         </div>
     </div>
 
-    
+  
     
 </div>
 
