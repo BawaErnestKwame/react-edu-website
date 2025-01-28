@@ -1,6 +1,8 @@
+* .footercontainer */
+
 .foooter-container{
-    margin-top: 0px;
-    background-color: var( --main-footer-color);
+    margin-top: 80px;
+    background-color: var(--main-background-color);
     padding: 2rem 6rem;
     color: #eef3ed;
     display: flex;
@@ -12,7 +14,7 @@
 
 .foooter-container .footer-text{
     display: flex;
-    gap: 3%;
+    gap: 5%;
 }
 
 .flex1 p{
@@ -51,14 +53,10 @@ color: #e91e62;
  .call
   ,.location{
     display: flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    gap: 20px;
-    margin-top: 50px;
-}
-
-.links li{
-    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    gap: 10px;
+   
 }
 
 .links a{
@@ -74,21 +72,9 @@ color: #e91e62;
    
 }
 
-.location i{
-   color:#f50957;
-}
 
-.mail i{
-    color: #f50957;
-}
- .call i{
-    color: #f50957;
- }
 
  .copyright{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 2rem 6rem;
     background-color: #e91e62;
     text-align: center;
@@ -121,17 +107,13 @@ color: #e91e62;
    
  }
 
- .flex4{
-    gap: 30px;
-    display: grid;
- }
-
- .footer-socials a{
+ .footer-socials .fa-brands{
     font-size: 1.4rem;
-    color: #f50087;
+    color: #eef3ed;
     z-index: 1;
     margin-top: 20px;
     margin-left: 10px;
+    background-color: #fc5304;
     padding: 5px;
     border-radius: 8px;
    
@@ -142,9 +124,9 @@ color: #e91e62;
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-left: 190px;
-    line-height: 2.6;
+    line-height: 2;
     font-size: 20px;
     color: #eef3ed;
     text-align: center;
@@ -157,125 +139,4 @@ color: #e91e62;
    
  }
 
-
- @media screen and (max-width:1200px) {
-    .foooter-container{
-        padding: 2rem 3rem;
-        width: 100%;
-        height: 50vh;
-    }
-    
-
-    .foooter-container .footer-text{
-        display: flex;
-        gap: 2%;
-    }
-    
-    .flex1 p{
-       
-        width: 250px;
-    
-        
-    }
-    
-    
- }
-
-
- @media screen and (max-width:992px){
-    .foooter-container{
-        padding: 2rem 1.5rem;
-        width: 100%;
-        flex-wrap: wrap;
-        height: auto;
-    }
-
-    .foooter-container .footer-text{
-        flex-wrap: wrap;
-        gap: 2%;
-    }
-
-
- }
-
- @media screen and (max-width:768px){
-    .foooter-container{
-        padding: 2rem 1rem;
-        width: 100%;
-        flex-wrap: wrap;
-        height: auto;
-    }
-
- }
-
- @media screen and (max-width:480px){
-    .foooter-container{
-        padding: 2rem 1rem;
-        width: 100%;
-        flex-wrap: wrap;
-        height: auto;
-    }
-
-    .foooter-container .footer-text{
-        flex-wrap: wrap;
-        gap: .5%;
-    }
-
-
- }
-
-
- @media screen and (max-width:400px){
-    .foooter-container{
-        padding: 1rem 1rem;
-        width: 100%;
-        flex-wrap: wrap;
-        height: auto;
-    }
-
-    .foooter-container .footer-text{
-        flex-wrap: wrap;
-        gap: 0%;
-    }
-
-    .flex1 p{
-        font-size: 15px;
-        letter-spacing: .5px;
-        width: 100%;
-    }
-    
-    .flex2 .links{
-        margin-top: 8px;
-        gap: 7px;
-    }
-    
-    .flex3 .links{
-        margin-top: 8px;
-        gap: 7px;
-    }
-
-    .logo-footer{
-        color: #eef3ed;
-        margin-bottom: 3px;
-    }
-    
-    .mail,
-     .call
-      ,.location{
-        display: flex;
-        margin-bottom: 10px;
-        gap: 20px;
-        margin-top: 20px;
-    }
-
-    .copyright{
-        padding: 1rem 1rem;
-        width: 100%;
-        height: 5vh;
-     }
-    
-
- }
-
-
-
+ 

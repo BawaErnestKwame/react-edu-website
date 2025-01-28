@@ -24,9 +24,7 @@ import instructor2 from '../../assets/instructor2.jpeg'
 import instructor3 from '../../assets/instructor3.jpeg'
 import instructor4 from '../../assets/instructor4.jpeg'
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
-
 import SportsKabaddiIcon from '@mui/icons-material/SportsKabaddi';
-import Footer from '../../Components/Footer/Footer';
 import { Link } from 'react-router-dom';
 import CountUp from 'react-countup';
 import {motion} from "framer-motion"
@@ -333,7 +331,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
         </div>
     </div>
     <div className="question_answers">
-        <div className={`"question" ${isShowing ? "" : setIshowing}`} >
+        <div className={"question"} >
             <p><AddIcon/>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             <ArrowDownwardIcon/>
 

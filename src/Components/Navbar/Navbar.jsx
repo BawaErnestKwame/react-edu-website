@@ -23,8 +23,16 @@ const Navbar = () => {
           <Link to="/"> <h1>Be<span>Code</span></h1></Link>
         </div>
 
+ <div className="contact">
+            <div className="contact-icon">
+              <ContactPhoneIcon />
+            </div>
+            <p>+233599316218</p>
+          </div>
         <div className='btns menu-btn' onClick={toggleMenu}>
           {menuBtn ? <ClearIcon /> : <MenuIcon />}
+
+         
         </div>
 
         <nav>
@@ -47,15 +55,6 @@ const Navbar = () => {
           </div>
             
           </ul>
-
-        
-
-          <div className="contact">
-            <div className="contact-icon">
-              <ContactPhoneIcon />
-            </div>
-            <p>+233599316218</p>
-          </div>
         </nav>
       </div>
     </>

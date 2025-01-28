@@ -1547,7 +1547,7 @@ margin-bottom: 20px;
   
   .courses .course1{
       padding: 10px;
-     width: 100%;
+     width: 90%;
      height: auto;
      margin-bottom: 0px;
   }
@@ -1782,8 +1782,8 @@ margin-bottom: 20px;
   
   .courses .course1{
       padding: 10px;
-     width: 100%;
-     height: 60vh;
+     width: 90%;
+     height: auto;
      margin-bottom: 0px;
   }
 
@@ -1893,6 +1893,289 @@ margin-bottom: 20px;
 
     
 }
+
+.foooter-container{
+    margin-top: 0px;
+    background-color: var( --main-footer-color);
+    padding: 2rem 6rem;
+    color: #eef3ed;
+    display: flex;
+    width: 100%;
+   flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+}
+
+.foooter-container .footer-text{
+    display: flex;
+    gap: 3%;
+}
+
+.flex1 p{
+    font-size: 15px;
+    letter-spacing: .5px;
+    width: 300px;
+
+    
+}
+
+.flex2 .links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.flex3 .links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+
+}
+
+.logo-footer{
+    color: #eef3ed;
+    margin-bottom: 20px;
+}
+
+.logo-footer span{
+color: #e91e62;
+}
+
+.mail,
+ .call
+  ,.location{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.links li{
+    list-style: none;
+}
+
+.links a{
+    text-decoration: none;
+    color: #eef3ed;
+    font-size: 15px;
+    transition: .5s;
+}
+
+.links a:hover{
+    color: #e91e62;
+    text-decoration: underline;
+   
+}
+
+.location i{
+   color:#f50957;
+}
+
+.mail i{
+    color: #f50957;
+}
+ .call i{
+    color: #f50957;
+ }
+
+ .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 6rem;
+    background-color: #e91e62;
+    text-align: center;
+    width: 100%;
+    height: 7vh;
+    color: #eef3ed;
+    letter-spacing: .5px;
+ }
+
+ hr{
+    height: 2px;
+    background-color: gray;
+ }
+
+ .footer-text h2{
+    font-size: 1.3rem;
+    letter-spacing: .5px;
+    position: relative;
+
+ }
+
+ .footer-text h2::before{
+    background-color: #f50957;
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 80px;
+    bottom: -5px;
+    border-radius: 8px;
+   
+ }
+
+ .flex4{
+    gap: 30px;
+    display: grid;
+ }
+
+ .footer-socials a{
+    font-size: 1.4rem;
+    color: #f50087;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 8px;
+   
+ }
+
+ .flex5{
+    background-color: #e91e63;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 190px;
+    line-height: 2.6;
+    font-size: 20px;
+    color: #eef3ed;
+    text-align: center;
+   
+ }
+
+ .flex5 a{
+    text-decoration: none;
+    color: #eef3ed;
+   
+ }
+
+
+ @media screen and (max-width:1200px) {
+    .foooter-container{
+        padding: 2rem 3rem;
+        width: 100%;
+        height: 50vh;
+    }
+    
+
+    .foooter-container .footer-text{
+        display: flex;
+        gap: 2%;
+    }
+    
+    .flex1 p{
+       
+        width: 250px;
+    
+        
+    }
+    
+    
+ }
+
+
+ @media screen and (max-width:992px){
+    .foooter-container{
+        padding: 2rem 1.5rem;
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .foooter-container .footer-text{
+        flex-wrap: wrap;
+        gap: 2%;
+    }
+
+
+ }
+
+ @media screen and (max-width:768px){
+    .foooter-container{
+        padding: 2rem 1rem;
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+ }
+
+ @media screen and (max-width:480px){
+    .foooter-container{
+        padding: 2rem 1rem;
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .foooter-container .footer-text{
+        flex-wrap: wrap;
+        gap: .5%;
+    }
+
+
+ }
+
+
+ @media screen and (max-width:400px){
+    .foooter-container{
+        padding: 1rem 1rem;
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .foooter-container .footer-text{
+        flex-wrap: wrap;
+        gap: 0%;
+    }
+
+    .flex1 p{
+        font-size: 15px;
+        letter-spacing: .5px;
+        width: 100%;
+    }
+    
+    .flex2 .links{
+        margin-top: 8px;
+        gap: 7px;
+    }
+    
+    .flex3 .links{
+        margin-top: 8px;
+        gap: 7px;
+    }
+
+    .logo-footer{
+        color: #eef3ed;
+        margin-bottom: 3px;
+    }
+    
+    .mail,
+     .call
+      ,.location{
+        display: flex;
+        margin-bottom: 10px;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .copyright{
+        padding: 1rem 1rem;
+        width: 100%;
+        height: 5vh;
+     }
+    
+
+ }
+
+
+
+
 
 
 

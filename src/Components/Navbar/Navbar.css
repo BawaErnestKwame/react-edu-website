@@ -126,12 +126,14 @@ a.active::before{
        
        
     }
+
     .menu-btn {
-        display: flex;
+        display:flex ;
         position: absolute;
         top: 20px;
         right: 20px;
         margin-left: 2rem;
+        z-index: 1000;
     }
 
     nav ul {
@@ -177,6 +179,12 @@ a.active::before{
 
     .signup-btn{
         display: none;
+    }
+
+    .contact {
+        display: flex;
+        position: relative;
+        right: -14rem ;
     }
 }
 
