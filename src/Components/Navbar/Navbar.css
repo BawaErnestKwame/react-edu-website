@@ -1,220 +1,87 @@
+/* Navbar.css */
 .navbar {
     width: 100%;
     height: 70px;
     background-color: var(--navbar);
     display: flex;
     justify-content: space-between;
-    padding: 12px 6rem;
     align-items: center;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 0 2rem;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 999;
-    overflow: hidden; 
+    z-index: 1000;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
+.logo h1 {
+    font-size: 24px;
+    color: white;
+}
+
+span {
+    color: var(--highlight);
+}
 
 nav {
     display: flex;
-    gap: 7rem;
     align-items: center;
-    z-index: 1;
 }
 
-nav ul {
+.nav-links {
     display: flex;
     gap: 2rem;
-    position: relative;
-    z-index: 1;
-    align-items: center;
-}
-
-nav ul li {
-    align-items: center;
     list-style: none;
-    font-size: 1rem;
-    cursor: pointer;
-    letter-spacing: 0.5px;
-    z-index: 1;
 }
 
-span{
-    color: black;
-}
-
-
-
- a{
+.nav-links a {
     text-decoration: none;
-    color: #fff;
-    position: relative;
-    z-index: 1;
-}
-
-a.active::before{
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background: #fff;
-    bottom: -46px;
-    transform: rotate(45deg);
-    z-index: -1;
-}
-
-.menu-btn {
-    font-size: 2rem;
-    display: none;
-    cursor: pointer;
-}
-
-.contact {
-    display: flex;
-    background-color: #fff;
-    padding: 10px;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-}
-
-.contact .contact-icon {
-    color: #5a5a5a;
-    font-size: 0.8rem;
-}
-
-.contact p {
-    position: absolute;
-    top: 4rem;
-    right: 3rem;
-    font-size: 16px;
-    background: var(--navbar);
-    padding: 5px 10px;
-    border-radius: 10px;
-    opacity: 0;
-    transition: 0.3s ease;
-}
-
-.contact:hover p {
-    opacity: 1;
-}
-
-.btn {
-    margin: 7px;
-    border: none;
-    outline: none;
-    padding: 8px 20px;
-    background-color: var(--button-color);
-    cursor: pointer;
-    color: #fff;
+    color: white;
     font-size: 1rem;
-    letter-spacing: 0.5px;
-    border-radius: 10px;
 }
 
-@media screen and (max-width: 992px) {
-    .navbar {
-        padding: 12px 1rem;
-       
-       
-    }
+.auth-buttons {
+    display: flex;
+    gap: 1rem;
+}
 
-    .menu-btn {
-        display:flex ;
+button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--button-color);
+    color: white;
+    border-radius: 5px;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
         position: absolute;
-        top: 20px;
-        right: 20px;
-        margin-left: 2rem;
-        z-index: 1000;
-    }
-
-    nav ul {
-        visibility: hidden;
-        opacity: 0;
-        position: fixed;
-        height: auto;
         top: 70px;
         right: 0;
-        background-color: var(--navbar);
+        background: var(--navbar);
         width: 60%;
         height: calc(100vh - 70px);
         flex-direction: column;
         align-items: center;
         padding-top: 20px;
-        transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+        transition: 0.3s ease-in-out;
     }
 
-    nav ul.open {
+    .nav-links.open {
         display: flex;
-        visibility: visible;
-        opacity: 1;
     }
 
-    nav ul li {
-        width: 100%;
-        text-align: center;
-        padding: 1rem;
-        transition: ease .5s;
-        border-bottom: 2px solid #fff;
-        
+    .menu-icon {
+        display: block;
     }
-
-    nav ul li:hover {
-        background-color: rgb(2, 2, 85);
-        border-radius: 10px;
-        width: 100%;
-    }
-
-    a.active::before{
-        content: none;
-    }
-
-    .login-btn{
-        display: flex;
-        z-index: 1;
-    }
-
-    .signup-btn{
-        display: none;
-    }
-
-    .contact {
-        display: flex;
-        position: relative;
-        right: -14rem ;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .contact {
-        display: none;
-    }
-
-
-
-    .login-btn{
-        display: flex;
-        margin: 0;
-        padding: 0;
-        margin-right: 4rem;
-        border-radius: 0%;
-        background: transparent;
-        border: 2px solid rgb(1, 1, 102);
-        padding: 5px 10px;
-        transition: .5s;
-        z-index: -1;
-    }
-
-    .login-btn:hover{
-        border: 2px solid rgb(255, 255, 255);
-        background-color:rgb(1, 1, 102) ;
-    }
-
-    
-
-    .signup-btn{
-        display: none;
-    }
-
-
 }
