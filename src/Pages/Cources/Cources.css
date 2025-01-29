@@ -256,18 +256,14 @@
         cursor: pointer;
         padding: 0.3rem;
     }
-
     /* courses page */
     
     .courses-card{
-  
     grid-template-columns: repeat(1, 1fr);
      padding: 2rem 1rem;
      margin-bottom: 50px;
      gap: 1rem;
-
     }
-
     
     .courses-card .card1{
        width: 70%;
