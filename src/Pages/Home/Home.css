@@ -1431,6 +1431,48 @@ margin-bottom: 20px;
     align-items: center;
 }
 
+
+/* .testimonial_section */
+
+.testimonial_section{
+    padding: 2rem 1rem;
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+
+
+
+.testimonial_section h1{
+color: #eef3ed;
+font-size: 1.7rem;
+letter-spacing: .6px;
+margin-bottom: 10px;
+margin-bottom: 20px;
+}
+
+.testimonial_section .cardes{
+   display: flex;
+    gap: 20px;
+    width: max-content;
+    animation: testimonialscroll 40s infinite linear;
+}
+
+.slider{
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    position: relative;
+}
+
+.slider:hover{
+    animation-play-state: paused;
+}
+
     
 }
 
@@ -1493,7 +1535,7 @@ margin-bottom: 20px;
       }
   
  
-      /* who we are contaianer */
+ 
   
   .who-we-are-container{
       padding: 0 1rem;

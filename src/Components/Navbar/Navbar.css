@@ -39,14 +39,6 @@ nav ul li {
     z-index: 1;
 }
 
-nav ul li {
-    list-style: none;
-    font-size: 1rem;
-    cursor: pointer;
-    letter-spacing: 0.5px;
-    align-items: center;
-}
-
 span{
     color: black;
 }
@@ -137,8 +129,10 @@ a.active::before{
     }
 
     nav ul {
-        display: none;
+        visibility: hidden;
+        opacity: 0;
         position: fixed;
+        height: auto;
         top: 70px;
         right: 0;
         background-color: var(--navbar);
@@ -147,11 +141,13 @@ a.active::before{
         flex-direction: column;
         align-items: center;
         padding-top: 20px;
-        transition: .5s ease-in;
+        transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
     }
 
     nav ul.open {
         display: flex;
+        visibility: visible;
+        opacity: 1;
     }
 
     nav ul li {
@@ -175,6 +171,7 @@ a.active::before{
 
     .login-btn{
         display: flex;
+        z-index: 1;
     }
 
     .signup-btn{
@@ -192,6 +189,8 @@ a.active::before{
     .contact {
         display: none;
     }
+
+
 
     .login-btn{
         display: flex;
@@ -216,4 +215,6 @@ a.active::before{
     .signup-btn{
         display: none;
     }
+
+
 }
