@@ -429,6 +429,8 @@
     height: 50px;
     align-self: center;
     border-radius: 50%; 
+    margin-top: 20px;
+    background-color: #e91e62;
 }
 
 
@@ -1023,6 +1025,7 @@ margin-bottom: 20px;
 
 .instructors-cards .card1 img{
     width: 100%;
+    object-fit: contain;
 
 }
 
