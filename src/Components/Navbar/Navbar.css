@@ -70,7 +70,7 @@ nav {
 }
 
 button {
-    padding: 3px 20px;
+    padding: 10px 20px;
     border: none;
     cursor: pointer;
     color: white;
@@ -87,6 +87,10 @@ button {
 
 }
 
+
+.signup-btn{
+    background: transparent;
+}
 .signup-btn:hover{
     background-color:rgb(3, 3, 184) ;
 }
@@ -138,6 +142,17 @@ button {
         align-items: center;
         padding-top: 20px;
         transition: 0.3s ease-in-out;
+    }
+
+    .nav-links li a:hover{
+        background-color: rgb(5, 5, 187);
+
+    }
+
+    
+
+    a.active:before{
+   display: none;
     }
 
     .nav-links.open {

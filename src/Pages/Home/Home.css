@@ -931,13 +931,14 @@ margin-bottom: 20px;
 /* courses page asap */
 
 .our-popular-courses{
+    position: relative;
     padding: 0 1.5rem;
     margin-bottom: 90px;
 }
 
 .courses .course1{
     padding: 10px;
-   width: 255px;
+   width: 240px;
    height: auto;
    margin-bottom: 20px;
 }
@@ -960,6 +961,11 @@ margin-bottom: 20px;
 .show-more-btn{
     position: absolute;
     top: 10px;
+    bottom: -40rem;
+    background-color: var(--navbar);
+    height: 4rem;
+    width: 4rem;
+
 }
 
 
@@ -1026,7 +1032,7 @@ margin-bottom: 20px;
     position: absolute;
     bottom: -60px;
     width: 210px;
-    left: -110px;
+    
 }
 
 .sugested-questions h3::before{
@@ -1175,6 +1181,9 @@ margin-bottom: 20px;
   .show-more-btn{
       position: absolute;
       top: -250px;
+      width: 3rem;
+      height: 3rem;
+     line-height: 3;
   }
 
   /* frequently ask questions */
