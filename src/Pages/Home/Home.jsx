@@ -218,7 +218,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
              eos voluptatum consequuntur, offitrcia nam veritatis natus incidunt 
             eveniet maxime corrupti neque deleniti sunt harum earum sint ratione aliquam?</p>
 
-            <button className='dicover-tbn'>Descover More  <ArrowForwardIcon/></button>
+         <Link to="/COURSES">   <button className='dicover-tbn'>Descover More  <ArrowForwardIcon/></button></Link>
         </div>
 
         <img src={book2} alt="" />

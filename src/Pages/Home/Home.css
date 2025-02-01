@@ -2212,6 +2212,7 @@ color: #e91e62;
     }
 
     .copyright{
+      
         padding: 1rem 1rem;
         width: 100%;
         height: 5vh;
@@ -2220,6 +2221,17 @@ color: #e91e62;
 
  }
 
+ @media screen and (max-width:350px){
+    
+    .copyright{
+      
+        padding: 1rem .5rem;
+        width: 100%;
+        color: #000;
+       
+     }
+    
+ }
 
 
 
