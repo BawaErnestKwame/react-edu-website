@@ -916,15 +916,16 @@ margin-bottom: 20px;
     letter-spacing: .5px;
 }
 
-.student-enrolled{
+
+.student-enrolled{ 
     width: 23%;
-    left: 150px;
+    left: 90px;
+   height: 4rem;
+   padding: 3px;
 }
 
 
-
  /* start-your-learning-journey */
-
  .start-your-learning-journey{
     padding: 1rem 1.5rem;
     gap: 1rem;
