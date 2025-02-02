@@ -308,7 +308,7 @@ Rerum magni dolorem nulla ullam dolores exercitationem
           </div>
         </div>
         <Link to='/COURSES'>
-<button className='show-more-btn'> <ArrowForwardIcon/></button></Link>
+<button className='coursess-btns'> Find More <ArrowForwardIcon/></button></Link>
       </div>
 
       <div className="sugested-questions">

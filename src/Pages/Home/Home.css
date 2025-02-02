@@ -424,13 +424,19 @@
     border-radius: 10px;
 }
 
-.show-more-btn{
-    width: 50px;
-    height: 50px;
-    align-self: center;
-    border-radius: 50%; 
-    margin-top: 20px;
+.coursess-btns{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    display: flex;
+    align-items: center;
     background-color: #e91e62;
+    color: #fff;
+    font-size: 1rem;
+    gap: 1rem;
+    margin-top: 2rem;
+    letter-spacing: .5px;
+
 }
 
 
@@ -911,7 +917,7 @@ margin-bottom: 20px;
 }
 
 .student-enrolled{
-    width: 22%;
+    width: 23%;
     left: 150px;
 }
 
@@ -957,17 +963,6 @@ margin-bottom: 20px;
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
-}
-
-
-.show-more-btn{
-    position: absolute;
-    top: 10px;
-    bottom: -40rem;
-    background-color: var(--navbar);
-    height: 4rem;
-    width: 4rem;
-
 }
 
 
