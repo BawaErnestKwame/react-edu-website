@@ -145,6 +145,15 @@ color: #e91e62;
    
  }
 
+
+
+ @media screen and (max-width:992px) {
+    .flex5{
+        margin-left: 370px;
+     }
+    
+ }
+
  @media screen and (max-width:600px) {
     .copyright{
         padding: 2rem 2rem;
@@ -162,6 +171,9 @@ color: #e91e62;
 
     .flex5{
         margin-top: 20px;
+      
+            margin-left: 150px;
+       
     }
 
     .location{
